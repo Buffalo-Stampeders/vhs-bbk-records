@@ -102,7 +102,7 @@ window.__SCRAPE = (async () => {
     const site = leaf.includes('@') ? 'away' : leaf.includes('N') ? 'neutral' : 'home';
     const cands = leaf.filter(x => !['@', 'vs', 'N'].includes(x) && !/^\*+$/.test(x)).map(x => x.replace(/^(@|vs)\s*/, '').replace(/\*+$/, '').trim()).filter(Boolean);
     const opp = (cands.sort((a, b) => b.length - a.length)[0] || cellText.replace(/^(@|vs)\s*/, '').replace(/\*+$/, '')).trim();
-    const res = td.map(x => x.textContent.trim()).find(x => /^[WL]\s+\d+-\d+/.test(x)) || '';
+    const res = td.map(x => x.textContent.trim()).find(x => /^[WL]\s+\d+-\d+/i.test(x)) || ''; // lowercase w/l = score entered by the other side; still a played game
     const box = [...tr.querySelectorAll('a')].map(a => a.getAttribute('href')).find(h => /\/game\//.test(h)) || null;
     const id = (box || '').match(/c=([0-9a-f-]{36})/)?.[1] || null;
     const urlDate = (box || '').match(/\/(\d{1,2})-(\d{1,2})-(\d{4})\//);
@@ -140,7 +140,7 @@ window.__SCRAPE = (async () => {
   const cache = window.__BOX_CACHE || (window.__BOX_CACHE = {});
   const result = [];
   for (const g of sched) {
-    const m = g.res.match(/^([WL])\s+(\d+)-(\d+)/);
+    const m = g.res.match(/^([WL])\s+(\d+)-(\d+)/i); if (m) m[1] = m[1].toUpperCase();
     if (!m) continue; // not played yet
     const tg = (g.id && games[g.id]) || null;
     const hi = Number(m[2]), lo = Number(m[3]);
