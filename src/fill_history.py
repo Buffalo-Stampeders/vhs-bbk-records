@@ -14,7 +14,7 @@ from collections import defaultdict
 book = json.load(open(sys.argv[1]))
 seasons = json.load(open(sys.argv[2]))
 seasons = sorted(seasons.values() if isinstance(seasons, dict) else seasons, key=lambda s: s['season'])
-NOTE = 'added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)'
+NOTE = 'added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)'  # (full-depth fill)
 NOTE_PARTIAL = NOTE + '; MaxPreps coverage of this season is incomplete, true value may be higher'
 NOTE_CAREER_PARTIAL = NOTE + '; MaxPreps is missing part of this career, true value may be higher'
 
@@ -91,7 +91,12 @@ th = {}
 for r in book:
     if r.get('value') is None: continue
     k = (r['section'], r['category']); th[k] = min(th.get(k, 1e9), r['value'])
-def qual(sec, cat, v): return v is not None and (sec, cat) in th and v >= th[(sec, cat)] - 1e-9
+import os
+ALL = os.environ.get('FILL_ALL') == '1'   # FILL_ALL=1: no list cutoffs — every non-zero MaxPreps value goes in (rates still need their minimum attempts)
+def qual(sec, cat, v):
+    if v is None or (sec, cat) not in th: return False
+    if ALL: return v > 0
+    return v >= th[(sec, cat)] - 1e-9
 
 book_players = {norm(r['player']): r['player'] for r in book if r.get('player')}
 _cfg = json.load(open('/home/claude/data/config_main.json'))

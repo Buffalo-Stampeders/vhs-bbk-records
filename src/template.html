@@ -52,6 +52,10 @@ main .wrap{padding-block:28px 56px}
 .status .count{font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;color:var(--tan)}
 .status .count b{color:var(--forest);font-variant-numeric:tabular-nums}
 .status .hint{font-size:.8rem;color:var(--muted)}
+.more{display:flex;align-items:center;gap:14px;padding:10px 0 4px}
+.more .morebtn{background:var(--forest);color:#fff;border:0;border-radius:4px;padding:8px 14px;font:700 .8rem var(--f);letter-spacing:1px;text-transform:uppercase;cursor:pointer}
+.more .morebtn:hover{background:var(--forest-dark)}
+.more span{font-size:.8rem;color:var(--muted)}
 .group{margin-bottom:34px}
 .group h2{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px;color:var(--forest);font-size:1.25rem;font-weight:700;margin:0 0 12px;padding-bottom:8px;border-bottom:3px solid var(--forest)}
 .group h2 small{color:var(--tan);font-weight:600;font-size:.75rem;letter-spacing:1px;text-transform:uppercase}
@@ -236,11 +240,15 @@ function sortRows(rows, sec){
     if(typeof x==='number'&&typeof y==='number') return (x-y)*m;
     return String(x).localeCompare(String(y),undefined,{numeric:true})*m; });
 }
-function table(rows, sec){
+const PAGE=100; state.expanded=state.expanded||{};
+function table(rows, sec, gkey){
   const cols=COLS[sec];
+  const all=sortRows(rows,sec); const limit=(gkey&&state.expanded[gkey])?all.length:PAGE; const shown=all.slice(0,limit);
   let h='<div class="tablewrap"><table><thead><tr>'+cols.map(([k,l,cls])=>`<th class="${cls||''}"><button type="button" data-key="${k}" data-dir="${state.sort&&state.sort[0]===k?state.sort[1]:''}">${l}</button></th>`).join('')+'</tr></thead><tbody>';
-  sortRows(rows,sec).forEach(r=>{ h+='<tr'+(r.live?' class="live"':'')+'>'+cols.map(([k,l,cls])=>`<td class="${cls||''}${k==='rank'?' rank':''}">${cell(r,k)}</td>`).join('')+'</tr>'; });
-  return h+'</tbody></table></div>';
+  shown.forEach(r=>{ h+='<tr'+(r.live?' class="live"':'')+'>'+cols.map(([k,l,cls])=>`<td class="${cls||''}${k==='rank'?' rank':''}">${cell(r,k)}</td>`).join('')+'</tr>'; });
+  h+='</tbody></table></div>';
+  if(all.length>limit) h+=`<div class="more"><button type="button" class="morebtn" data-group="${esc(gkey)}">Show all ${all.length.toLocaleString()} entries</button><span>Showing the top ${limit}</span></div>`;
+  return h;
 }
 function render(){
   renderNotes();
@@ -270,12 +278,13 @@ function render(){
   let h='';
   for(const g of groups.values()){
     const total=DATA.filter(r=>r.section===g.sec&&r.category===g.cat).length;
-    h+=`<section class="group"><h2>${esc(g.cat)} <small>${g.rows.length===total?total+' listed':g.rows.length+' of '+total}</small></h2>${table(g.rows,g.sec)}</section>`;
+    h+=`<section class="group"><h2>${esc(g.cat)} <small>${g.rows.length===total?total+' listed':g.rows.length+' of '+total}</small></h2>${table(g.rows,g.sec,g.sec+'|'+g.cat)}</section>`;
   }
   el.res.innerHTML=h;
   $('#hint').textContent = state.sort ? 'Sorted by '+state.sort[0]+' ('+state.sort[1]+'). Click a header again to flip, or Reset to restore record-book order.' : 'Click any column header to sort.';
 }
 el.res.addEventListener('click',e=>{
+  const mb=e.target.closest('.morebtn'); if(mb){ state.expanded[mb.dataset.group]=true; render(); return; }
   const b=e.target.closest('th button'); if(!b) return;
   const k=b.dataset.key; state.sort = (state.sort&&state.sort[0]===k) ? [k, state.sort[1]==='desc'?'asc':'desc'] : [k, (k==='rank'||k==='player'||k==='opponent'||k==='coach'||k==='season'||k==='date_text')?'asc':'desc'];
   render();
