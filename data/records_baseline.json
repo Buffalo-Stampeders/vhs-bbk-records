@@ -8,7 +8,8 @@
   "date": "2023-02-04",
   "date_text": "2/4/23",
   "season": "2022-2023",
-  "order": 1
+  "order": 1,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -19,7 +20,8 @@
   "date": "2022-01-08",
   "date_text": "1/8/22",
   "season": "2021-2022",
-  "order": 2
+  "order": 2,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -31,7 +33,8 @@
   "date_text": "12/27/19",
   "season": "2019-2020",
   "order": 3,
-  "note": "date corrected from 12/24/19 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 12/24/19 (confirmed against MaxPreps box score)",
+  "opponent": "Seffner Christian"
  },
  {
   "section": "ind_game",
@@ -42,7 +45,8 @@
   "date": "2021-12-14",
   "date_text": "12/14/21",
   "season": "2021-2022",
-  "order": 4
+  "order": 4,
+  "opponent": "Columbia"
  },
  {
   "section": "ind_game",
@@ -64,7 +68,8 @@
   "date": "2019-12-28",
   "date_text": "12/28/19",
   "season": "2019-2020",
-  "order": 6
+  "order": 6,
+  "opponent": "Calvary Christian"
  },
  {
   "section": "ind_game",
@@ -75,7 +80,8 @@
   "date": "2012-12-18",
   "date_text": "12/18/12",
   "season": "2012-2013",
-  "order": 7
+  "order": 7,
+  "opponent": "Sonrise Christian"
  },
  {
   "section": "ind_game",
@@ -86,7 +92,8 @@
   "date": "2022-12-06",
   "date_text": "12/6/22",
   "season": "2022-2023",
-  "order": 8
+  "order": 8,
+  "opponent": "Oak Ridge"
  },
  {
   "section": "ind_game",
@@ -97,7 +104,8 @@
   "date": "2017-01-24",
   "date_text": "1/24/17",
   "season": "2016-2017",
-  "order": 9
+  "order": 9,
+  "opponent": "CFCA"
  },
  {
   "section": "ind_game",
@@ -109,7 +117,8 @@
   "date_text": "1/27/18",
   "season": "2017-2018",
   "order": 10,
-  "note": "date corrected from 1/27/17 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 1/27/17 (confirmed against MaxPreps box score)",
+  "opponent": "Abington"
  },
  {
   "section": "ind_game",
@@ -120,7 +129,8 @@
   "date": "2020-01-11",
   "date_text": "1/11/20",
   "season": "2019-2020",
-  "order": 11
+  "order": 11,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -131,7 +141,8 @@
   "date": "2022-12-27",
   "date_text": "12/27/22",
   "season": "2022-2023",
-  "order": 12
+  "order": 12,
+  "opponent": "Lowndes (GA)"
  },
  {
   "section": "ind_game",
@@ -142,7 +153,8 @@
   "date": "2018-12-15",
   "date_text": "12/15/18",
   "season": "2018-2019",
-  "order": 13
+  "order": 13,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -166,7 +178,8 @@
   "date": "2021-12-04",
   "date_text": "12/4/21",
   "season": "2021-2022",
-  "order": 15
+  "order": 15,
+  "opponent": "Clearwater"
  },
  {
   "section": "ind_game",
@@ -177,7 +190,8 @@
   "date": "2019-02-21",
   "date_text": "2/21/19",
   "season": "2018-2019",
-  "order": 16
+  "order": 16,
+  "opponent": "The First Academy (Orlando)"
  },
  {
   "section": "ind_game",
@@ -188,7 +202,8 @@
   "date": "2020-01-24",
   "date_text": "1/24/20",
   "season": "2019-2020",
-  "order": 17
+  "order": 17,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -199,7 +214,8 @@
   "date": "2023-02-16",
   "date_text": "2/16/23",
   "season": "2022-2023",
-  "order": 18
+  "order": 18,
+  "opponent": "Bishop Moore"
  },
  {
   "section": "ind_game",
@@ -210,7 +226,8 @@
   "date": "2023-02-02",
   "date_text": "2/2/23",
   "season": "2022-2023",
-  "order": 19
+  "order": 19,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -221,7 +238,8 @@
   "date": "2021-11-22",
   "date_text": "11/22/21",
   "season": "2021-2022",
-  "order": 20
+  "order": 20,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -232,7 +250,8 @@
   "date": "2019-01-31",
   "date_text": "1/31/19",
   "season": "2018-2019",
-  "order": 21
+  "order": 21,
+  "opponent": "Bayside"
  },
  {
   "section": "ind_game",
@@ -256,7 +275,8 @@
   "date_text": "1/19/19",
   "season": "2018-2019",
   "order": 23,
-  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)"
+  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
+  "opponent": "North Miami"
  },
  {
   "section": "ind_game",
@@ -267,7 +287,8 @@
   "date": "2023-01-10",
   "date_text": "1/10/23",
   "season": "2022-2023",
-  "order": 24
+  "order": 24,
+  "opponent": "Leesburg"
  },
  {
   "section": "ind_game",
@@ -278,7 +299,8 @@
   "date": "2022-01-07",
   "date_text": "1/7/22",
   "season": "2021-2022",
-  "order": 25
+  "order": 25,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -302,7 +324,8 @@
   "date_text": "11/27/17",
   "season": "2017-2018",
   "order": 27,
-  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)"
+  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
+  "opponent": "P.K. Yonge"
  },
  {
   "section": "ind_game",
@@ -313,7 +336,8 @@
   "date": "2017-11-30",
   "date_text": "11/30/17",
   "season": "2017-2018",
-  "order": 28
+  "order": 28,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -324,7 +348,8 @@
   "date": "2013-12-29",
   "date_text": "12/29/13",
   "season": "2013-2014",
-  "order": 29
+  "order": 29,
+  "opponent": "Leesburg"
  },
  {
   "section": "ind_game",
@@ -335,7 +360,8 @@
   "date": "2011-01-27",
   "date_text": "1/27/11",
   "season": "2010-2011",
-  "order": 30
+  "order": 30,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -346,7 +372,8 @@
   "date": "2011-12-21",
   "date_text": "12/21/11",
   "season": "2011-2012",
-  "order": 31
+  "order": 31,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -407,7 +434,8 @@
   "date": "2023-02-04",
   "date_text": "2/4/23",
   "season": "2022-2023",
-  "order": 36
+  "order": 36,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -418,7 +446,8 @@
   "date": "2019-12-27",
   "date_text": "12/27/19",
   "season": "2019-2020",
-  "order": 37
+  "order": 37,
+  "opponent": "Seffner Christian"
  },
  {
   "section": "ind_game",
@@ -429,7 +458,8 @@
   "date": "2013-12-06",
   "date_text": "12/06/13",
   "season": "2013-2014",
-  "order": 38
+  "order": 38,
+  "opponent": "Hudson"
  },
  {
   "section": "ind_game",
@@ -440,7 +470,8 @@
   "date": "2009-02-03",
   "date_text": "2/3/09",
   "season": "2008-2009",
-  "order": 39
+  "order": 39,
+  "opponent": "St. John Lutheran"
  },
  {
   "section": "ind_game",
@@ -452,7 +483,8 @@
   "date_text": "1/8/22",
   "season": "2021-2022",
   "order": 40,
-  "note": "date corrected from 1/11/22 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 1/11/22 (confirmed against MaxPreps box score)",
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -463,7 +495,8 @@
   "date": "2021-12-14",
   "date_text": "12/14/21",
   "season": "2021-2022",
-  "order": 41
+  "order": 41,
+  "opponent": "Columbia"
  },
  {
   "section": "ind_game",
@@ -474,7 +507,8 @@
   "date": "2021-11-22",
   "date_text": "11/22/21",
   "season": "2021-2022",
-  "order": 42
+  "order": 42,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -485,7 +519,8 @@
   "date": "2019-12-28",
   "date_text": "12/28/19",
   "season": "2019-2020",
-  "order": 43
+  "order": 43,
+  "opponent": "Calvary Christian"
  },
  {
   "section": "ind_game",
@@ -496,7 +531,8 @@
   "date": "2020-01-11",
   "date_text": "1/11/20",
   "season": "2019-2020",
-  "order": 44
+  "order": 44,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -507,7 +543,8 @@
   "date": "2019-02-21",
   "date_text": "2/21/19",
   "season": "2018-2019",
-  "order": 45
+  "order": 45,
+  "opponent": "The First Academy (Orlando)"
  },
  {
   "section": "ind_game",
@@ -518,7 +555,8 @@
   "date": "2019-02-04",
   "date_text": "2/4/19",
   "season": "2018-2019",
-  "order": 46
+  "order": 46,
+  "opponent": "Madison County"
  },
  {
   "section": "ind_game",
@@ -529,7 +567,8 @@
   "date": "2019-01-31",
   "date_text": "1/31/19",
   "season": "2018-2019",
-  "order": 47
+  "order": 47,
+  "opponent": "Bayside"
  },
  {
   "section": "ind_game",
@@ -540,7 +579,8 @@
   "date": "2018-12-15",
   "date_text": "12/15/18",
   "season": "2018-2019",
-  "order": 48
+  "order": 48,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -551,7 +591,8 @@
   "date": "2017-11-30",
   "date_text": "11/30/17",
   "season": "2017-2018",
-  "order": 49
+  "order": 49,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -562,7 +603,8 @@
   "date": "2014-02-13",
   "date_text": "2/13/14",
   "season": "2013-2014",
-  "order": 50
+  "order": 50,
+  "opponent": "Santa Fe"
  },
  {
   "section": "ind_game",
@@ -584,7 +626,8 @@
   "date": "2019-01-24",
   "date_text": "1/24/19",
   "season": "2018-2019",
-  "order": 52
+  "order": 52,
+  "opponent": "Wasatch (UT)"
  },
  {
   "section": "ind_game",
@@ -595,7 +638,8 @@
   "date": "2023-02-04",
   "date_text": "2/4/23",
   "season": "2022-2023",
-  "order": 53
+  "order": 53,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -606,7 +650,8 @@
   "date": "2020-01-24",
   "date_text": "1/24/20",
   "season": "2019-2020",
-  "order": 54
+  "order": 54,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -617,7 +662,8 @@
   "date": "2018-01-26",
   "date_text": "1/26/18",
   "season": "2017-2018",
-  "order": 55
+  "order": 55,
+  "opponent": "Miami Christian"
  },
  {
   "section": "ind_game",
@@ -628,7 +674,8 @@
   "date": "2020-01-11",
   "date_text": "1/11/20",
   "season": "2019-2020",
-  "order": 56
+  "order": 56,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -639,7 +686,8 @@
   "date": "2020-02-25",
   "date_text": "2/25/20",
   "season": "2019-2020",
-  "order": 57
+  "order": 57,
+  "opponent": "Eastside"
  },
  {
   "section": "ind_game",
@@ -650,7 +698,8 @@
   "date": "2019-02-02",
   "date_text": "2/2/19",
   "season": "2018-2019",
-  "order": 58
+  "order": 58,
+  "opponent": "Tampa Catholic"
  },
  {
   "section": "ind_game",
@@ -674,7 +723,8 @@
   "date": "2019-12-27",
   "date_text": "12/27/19",
   "season": "2019-2020",
-  "order": 60
+  "order": 60,
+  "opponent": "Seffner Christian"
  },
  {
   "section": "ind_game",
@@ -685,7 +735,8 @@
   "date": "2020-01-25",
   "date_text": "1/25/20",
   "season": "2019-2020",
-  "order": 61
+  "order": 61,
+  "opponent": "Lakewood Ranch"
  },
  {
   "section": "ind_game",
@@ -696,7 +747,8 @@
   "date": "2018-02-01",
   "date_text": "2/1/18",
   "season": "2017-2018",
-  "order": 62
+  "order": 62,
+  "opponent": "Eustis"
  },
  {
   "section": "ind_game",
@@ -707,7 +759,8 @@
   "date": "2008-01-18",
   "date_text": "1/18/08",
   "season": "2007-2008",
-  "order": 63
+  "order": 63,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -731,7 +784,8 @@
   "date": "2023-01-05",
   "date_text": "1/5/23",
   "season": "2022-2023",
-  "order": 65
+  "order": 65,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -742,7 +796,8 @@
   "date": "2022-02-05",
   "date_text": "2/5/22",
   "season": "2021-2022",
-  "order": 66
+  "order": 66,
+  "opponent": "Bishop Snyder"
  },
  {
   "section": "ind_game",
@@ -753,7 +808,8 @@
   "date": "2019-12-13",
   "date_text": "12/13/19",
   "season": "2019-2020",
-  "order": 67
+  "order": 67,
+  "opponent": "LPPA"
  },
  {
   "section": "ind_game",
@@ -764,7 +820,8 @@
   "date": "2019-01-19",
   "date_text": "1/19/19",
   "season": "2018-2019",
-  "order": 68
+  "order": 68,
+  "opponent": "North Miami"
  },
  {
   "section": "ind_game",
@@ -775,7 +832,8 @@
   "date": "2018-12-21",
   "date_text": "12/21/18",
   "season": "2018-2019",
-  "order": 69
+  "order": 69,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -825,7 +883,8 @@
   "date": "2022-01-07",
   "date_text": "1/7/22",
   "season": "2021-2022",
-  "order": 73
+  "order": 73,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -836,7 +895,8 @@
   "date": "2021-11-22",
   "date_text": "11/22/21",
   "season": "2021-2022",
-  "order": 74
+  "order": 74,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -847,7 +907,8 @@
   "date": "2017-12-30",
   "date_text": "12/30/17",
   "season": "2017-2018",
-  "order": 75
+  "order": 75,
+  "opponent": "Leesburg"
  },
  {
   "section": "ind_game",
@@ -858,7 +919,8 @@
   "date": "2017-03-01",
   "date_text": "3/1/17",
   "season": "2016-2017",
-  "order": 76
+  "order": 76,
+  "opponent": "Tampa Catholic"
  },
  {
   "section": "ind_game",
@@ -869,7 +931,8 @@
   "date": "2013-12-10",
   "date_text": "12/10/13",
   "season": "2013-2014",
-  "order": 77
+  "order": 77,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -880,7 +943,8 @@
   "date": "2010-12-07",
   "date_text": "12/7/10",
   "season": "2010-2011",
-  "order": 78
+  "order": 78,
+  "opponent": "Crystal River"
  },
  {
   "section": "ind_game",
@@ -891,7 +955,8 @@
   "date": "2012-12-04",
   "date_text": "12/4/12",
   "season": "2012-2013",
-  "order": 79
+  "order": 79,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -902,7 +967,8 @@
   "date": "2018-02-01",
   "date_text": "2/1/18",
   "season": "2017-2018",
-  "order": 80
+  "order": 80,
+  "opponent": "Eustis"
  },
  {
   "section": "ind_game",
@@ -913,7 +979,8 @@
   "date": "2017-11-30",
   "date_text": "11/30/17",
   "season": "2017-2018",
-  "order": 81
+  "order": 81,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -950,7 +1017,8 @@
   "date": "2012-12-18",
   "date_text": "12/18/12",
   "season": "2012-2013",
-  "order": 84
+  "order": 84,
+  "opponent": "Sonrise Christian"
  },
  {
   "section": "ind_game",
@@ -961,7 +1029,8 @@
   "date": "2025-01-25",
   "date_text": "1/25/25",
   "season": "2024-2025",
-  "order": 85
+  "order": 85,
+  "opponent": "Westminster Academy"
  },
  {
   "section": "ind_game",
@@ -983,7 +1052,8 @@
   "date": "2025-02-07",
   "date_text": "2/7/25",
   "season": "2024-2025",
-  "order": 87
+  "order": 87,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -994,7 +1064,8 @@
   "date": "2020-01-14",
   "date_text": "1/14/20",
   "season": "2019-2020",
-  "order": 88
+  "order": 88,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1006,7 +1077,8 @@
   "date_text": "1/2/25",
   "season": "2024-2025",
   "order": 89,
-  "note": "date corrected from 1/2/24 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 1/2/24 (confirmed against MaxPreps box score)",
+  "opponent": "University Christian"
  },
  {
   "section": "ind_game",
@@ -1017,7 +1089,8 @@
   "date": "2022-01-17",
   "date_text": "1/17/22",
   "season": "2021-2022",
-  "order": 90
+  "order": 90,
+  "opponent": "Weeki Wachee"
  },
  {
   "section": "ind_game",
@@ -1028,7 +1101,8 @@
   "date": "2019-01-25",
   "date_text": "1/25/19",
   "season": "2018-2019",
-  "order": 91
+  "order": 91,
+  "opponent": "Miami Christian"
  },
  {
   "section": "ind_game",
@@ -1039,7 +1113,8 @@
   "date": "2019-01-11",
   "date_text": "1/11/19",
   "season": "2018-2019",
-  "order": 92
+  "order": 92,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -1050,7 +1125,8 @@
   "date": "2018-12-14",
   "date_text": "12/14/18",
   "season": "2018-2019",
-  "order": 93
+  "order": 93,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1061,7 +1137,8 @@
   "date": "2018-01-24",
   "date_text": "1/24/18",
   "season": "2017-2018",
-  "order": 94
+  "order": 94,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -1072,7 +1149,8 @@
   "date": "2009-12-12",
   "date_text": "12/12/09",
   "season": "2009-2010",
-  "order": 95
+  "order": 95,
+  "opponent": "Seven Rivers Christian"
  },
  {
   "section": "ind_game",
@@ -1109,7 +1187,8 @@
   "date": "2025-01-25",
   "date_text": "1/25/25",
   "season": "2024-2025",
-  "order": 98
+  "order": 98,
+  "opponent": "Westminster Academy"
  },
  {
   "section": "ind_game",
@@ -1120,7 +1199,8 @@
   "date": "2023-02-04",
   "date_text": "2/4/23",
   "season": "2022-2023",
-  "order": 99
+  "order": 99,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -1131,7 +1211,8 @@
   "date": "2021-02-12",
   "date_text": "2/12/21",
   "season": "2020-2021",
-  "order": 100
+  "order": 100,
+  "opponent": "Central"
  },
  {
   "section": "ind_game",
@@ -1142,7 +1223,8 @@
   "date": "2020-12-22",
   "date_text": "12/22/20",
   "season": "2020-2021",
-  "order": 101
+  "order": 101,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -1153,7 +1235,8 @@
   "date": "2020-12-17",
   "date_text": "12/17/20",
   "season": "2020-2021",
-  "order": 102
+  "order": 102,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -1164,7 +1247,8 @@
   "date": "2020-01-25",
   "date_text": "1/25/20",
   "season": "2019-2020",
-  "order": 103
+  "order": 103,
+  "opponent": "Lakewood Ranch"
  },
  {
   "section": "ind_game",
@@ -1175,7 +1259,8 @@
   "date": "2018-01-26",
   "date_text": "1/26/18",
   "season": "2017-2018",
-  "order": 104
+  "order": 104,
+  "opponent": "Miami Christian"
  },
  {
   "section": "ind_game",
@@ -1186,7 +1271,8 @@
   "date": "2011-01-28",
   "date_text": "1/28/11",
   "season": "2010-2011",
-  "order": 105
+  "order": 105,
+  "opponent": "St. John Lutheran"
  },
  {
   "section": "ind_game",
@@ -1197,7 +1283,8 @@
   "date": "2011-01-04",
   "date_text": "1/4/11",
   "season": "2010-2011",
-  "order": 106
+  "order": 106,
+  "opponent": "St. John Lutheran"
  },
  {
   "section": "ind_game",
@@ -1208,7 +1295,8 @@
   "date": "2009-01-23",
   "date_text": "1/23/09",
   "season": "2008-2009",
-  "order": 107
+  "order": 107,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -1219,7 +1307,8 @@
   "date": "2011-12-12",
   "date_text": "12/12/11",
   "season": "2011-2012",
-  "order": 108
+  "order": 108,
+  "opponent": "Interlachen"
  },
  {
   "section": "ind_game",
@@ -1230,7 +1319,8 @@
   "date": "2016-12-03",
   "date_text": "12/3/16",
   "season": "2016-2017",
-  "order": 109
+  "order": 109,
+  "opponent": "Kingdom Prep"
  },
  {
   "section": "ind_game",
@@ -1293,7 +1383,8 @@
   "date": "2020-01-25",
   "date_text": "1/25/20",
   "season": "2019-2020",
-  "order": 114
+  "order": 114,
+  "opponent": "Lakewood Ranch"
  },
  {
   "section": "ind_game",
@@ -1304,7 +1395,8 @@
   "date": "2019-01-24",
   "date_text": "1/24/19",
   "season": "2018-2019",
-  "order": 115
+  "order": 115,
+  "opponent": "Wasatch (UT)"
  },
  {
   "section": "ind_game",
@@ -1328,7 +1420,8 @@
   "date": "2013-01-04",
   "date_text": "1/4/13",
   "season": "2012-2013",
-  "order": 117
+  "order": 117,
+  "opponent": "Belleview"
  },
  {
   "section": "ind_game",
@@ -1339,7 +1432,8 @@
   "date": "2012-12-18",
   "date_text": "12/18/12",
   "season": "2012-2013",
-  "order": 118
+  "order": 118,
+  "opponent": "Sonrise Christian"
  },
  {
   "section": "ind_game",
@@ -1351,7 +1445,8 @@
   "date_text": "1/24/18",
   "season": "2017-2018",
   "order": 119,
-  "note": "date corrected from 1/24/17 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 1/24/17 (confirmed against MaxPreps box score)",
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -1362,7 +1457,8 @@
   "date": "2011-12-12",
   "date_text": "12/12/11",
   "season": "2011-2012",
-  "order": 120
+  "order": 120,
+  "opponent": "Interlachen"
  },
  {
   "section": "ind_game",
@@ -1385,7 +1481,8 @@
   "date_text": "2/7/25",
   "season": "2024-2025",
   "order": 122,
-  "note": "date corrected from 2/7/24 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 2/7/24 (confirmed against MaxPreps box score)",
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1396,7 +1493,8 @@
   "date": "2020-01-14",
   "date_text": "1/14/20",
   "season": "2019-2020",
-  "order": 123
+  "order": 123,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1407,7 +1505,8 @@
   "date": "2020-02-25",
   "date_text": "2/25/20",
   "season": "2019-2020",
-  "order": 124
+  "order": 124,
+  "opponent": "Eastside"
  },
  {
   "section": "ind_game",
@@ -1418,7 +1517,8 @@
   "date": "2022-01-29",
   "date_text": "1/29/22",
   "season": "2021-2022",
-  "order": 125
+  "order": 125,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -1429,7 +1529,8 @@
   "date": "2022-01-17",
   "date_text": "1/17/22",
   "season": "2021-2022",
-  "order": 126
+  "order": 126,
+  "opponent": "Weeki Wachee"
  },
  {
   "section": "ind_game",
@@ -1440,7 +1541,8 @@
   "date": "2020-02-12",
   "date_text": "2/12/20",
   "season": "2019-2020",
-  "order": 127
+  "order": 127,
+  "opponent": "Crystal River"
  },
  {
   "section": "ind_game",
@@ -1451,7 +1553,8 @@
   "date": "2020-01-11",
   "date_text": "1/11/20",
   "season": "2019-2020",
-  "order": 128
+  "order": 128,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -1462,7 +1565,8 @@
   "date": "2012-12-01",
   "date_text": "12/1/12",
   "season": "2012-2013",
-  "order": 129
+  "order": 129,
+  "opponent": "Lafayette"
  },
  {
   "section": "ind_game",
@@ -1484,7 +1588,8 @@
   "date": "2010-11-30",
   "date_text": "11/30/10",
   "season": "2010-2011",
-  "order": 131
+  "order": 131,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -1508,7 +1613,8 @@
   "date_text": "1/5/10",
   "season": "2009-2010",
   "order": 133,
-  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)"
+  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
+  "opponent": "St. John Lutheran"
  },
  {
   "section": "ind_game",
@@ -1519,7 +1625,8 @@
   "date": "2019-01-25",
   "date_text": "1/25/19",
   "season": "2018-2019",
-  "order": 134
+  "order": 134,
+  "opponent": "Miami Christian"
  },
  {
   "section": "ind_game",
@@ -1530,7 +1637,8 @@
   "date": "2018-01-26",
   "date_text": "1/26/18",
   "season": "2017-2018",
-  "order": 135
+  "order": 135,
+  "opponent": "Miami Christian"
  },
  {
   "section": "ind_game",
@@ -1542,7 +1650,8 @@
   "date_text": "2/7/26",
   "season": "2025-2026",
   "note": "added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)",
-  "order": 136
+  "order": 136,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1566,7 +1675,8 @@
   "date": "2020-12-08",
   "date_text": "12/8/20",
   "season": "2020-2021",
-  "order": 138
+  "order": 138,
+  "opponent": "Leesburg"
  },
  {
   "section": "ind_game",
@@ -1590,7 +1700,8 @@
   "date": "2017-02-08",
   "date_text": "2/8/17",
   "season": "2016-2017",
-  "order": 140
+  "order": 140,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -1601,7 +1712,8 @@
   "date": "2025-02-20",
   "date_text": "2/20/25",
   "season": "2024-2025",
-  "order": 141
+  "order": 141,
+  "opponent": "Tampa Catholic"
  },
  {
   "section": "ind_game",
@@ -1612,7 +1724,8 @@
   "date": "2022-01-07",
   "date_text": "1/7/22",
   "season": "2021-2022",
-  "order": 142
+  "order": 142,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -1623,7 +1736,8 @@
   "date": "2020-01-24",
   "date_text": "1/24/20",
   "season": "2019-2020",
-  "order": 143
+  "order": 143,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -1634,7 +1748,8 @@
   "date": "2012-01-24",
   "date_text": "1/24/12",
   "season": "2011-2012",
-  "order": 144
+  "order": 144,
+  "opponent": "Seven Rivers Christian"
  },
  {
   "section": "ind_game",
@@ -1645,7 +1760,8 @@
   "date": "2022-12-06",
   "date_text": "12/6/22",
   "season": "2022-2023",
-  "order": 145
+  "order": 145,
+  "opponent": "Oak Ridge"
  },
  {
   "section": "ind_game",
@@ -1667,7 +1783,8 @@
   "date": "2016-12-10",
   "date_text": "12/10/16",
   "season": "2016-2017",
-  "order": 147
+  "order": 147,
+  "opponent": "Columbia"
  },
  {
   "section": "ind_game",
@@ -1691,7 +1808,8 @@
   "date": "2024-12-19",
   "date_text": "12/19/24",
   "season": "2024-2025",
-  "order": 149
+  "order": 149,
+  "opponent": "Lake Minneola"
  },
  {
   "section": "ind_game",
@@ -1702,7 +1820,8 @@
   "date": "2024-02-23",
   "date_text": "2/23/24",
   "season": "2023-2024",
-  "order": 150
+  "order": 150,
+  "opponent": "Palm Bay"
  },
  {
   "section": "ind_game",
@@ -1714,7 +1833,8 @@
   "date_text": "12/4/21",
   "season": "2021-2022",
   "order": 151,
-  "note": "date corrected from 12/4/22 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 12/4/22 (confirmed against MaxPreps box score)",
+  "opponent": "Clearwater"
  },
  {
   "section": "ind_game",
@@ -1725,7 +1845,8 @@
   "date": "2019-03-01",
   "date_text": "3/1/19",
   "season": "2018-2019",
-  "order": 152
+  "order": 152,
+  "opponent": "Cocoa"
  },
  {
   "section": "ind_game",
@@ -1736,7 +1857,8 @@
   "date": "2019-01-19",
   "date_text": "1/19/19",
   "season": "2018-2019",
-  "order": 153
+  "order": 153,
+  "opponent": "North Miami"
  },
  {
   "section": "ind_game",
@@ -1758,7 +1880,8 @@
   "date": "2011-01-27",
   "date_text": "1/27/11",
   "season": "2010-2011",
-  "order": 155
+  "order": 155,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1769,7 +1892,8 @@
   "date": "2006-11-20",
   "date_text": "11/20/06",
   "season": "2006-2007",
-  "order": 156
+  "order": 156,
+  "opponent": "Wiregrass Ranch"
  },
  {
   "section": "ind_game",
@@ -1793,7 +1917,8 @@
   "date": "2022-11-26",
   "date_text": "11/26/22",
   "season": "2022-2023",
-  "order": 158
+  "order": 158,
+  "opponent": "Windermere"
  },
  {
   "section": "ind_game",
@@ -1804,7 +1929,8 @@
   "date": "2022-01-08",
   "date_text": "1/8/22",
   "season": "2021-2022",
-  "order": 159
+  "order": 159,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -1815,7 +1941,8 @@
   "date": "2019-02-09",
   "date_text": "2/9/19",
   "season": "2018-2019",
-  "order": 160
+  "order": 160,
+  "opponent": "The Rock"
  },
  {
   "section": "ind_game",
@@ -1826,7 +1953,8 @@
   "date": "2018-12-17",
   "date_text": "12/17/18",
   "season": "2018-2019",
-  "order": 161
+  "order": 161,
+  "opponent": "Lehigh"
  },
  {
   "section": "ind_game",
@@ -1837,7 +1965,8 @@
   "date": "2014-02-13",
   "date_text": "2/13/14",
   "season": "2013-2014",
-  "order": 162
+  "order": 162,
+  "opponent": "Santa Fe"
  },
  {
   "section": "ind_game",
@@ -1848,7 +1977,8 @@
   "date": "2009-02-10",
   "date_text": "2/10/09",
   "season": "2008-2009",
-  "order": 163
+  "order": 163,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -1872,7 +2002,8 @@
   "date": "2025-02-17",
   "date_text": "2/17/25",
   "season": "2024-2025",
-  "order": 165
+  "order": 165,
+  "opponent": "Discovery"
  },
  {
   "section": "ind_game",
@@ -1883,7 +2014,8 @@
   "date": "2023-12-02",
   "date_text": "12/2/23",
   "season": "2023-2024",
-  "order": 166
+  "order": 166,
+  "opponent": "Blake"
  },
  {
   "section": "ind_game",
@@ -1894,7 +2026,8 @@
   "date": "2021-12-29",
   "date_text": "12/29/21",
   "season": "2021-2022",
-  "order": 167
+  "order": 167,
+  "opponent": "Covington Catholic"
  },
  {
   "section": "ind_game",
@@ -1905,7 +2038,8 @@
   "date": "2019-12-27",
   "date_text": "12/27/19",
   "season": "2019-2020",
-  "order": 168
+  "order": 168,
+  "opponent": "Seffner Christian"
  },
  {
   "section": "ind_game",
@@ -1916,7 +2050,8 @@
   "date": "2019-12-17",
   "date_text": "12/17/19",
   "season": "2019-2020",
-  "order": 169
+  "order": 169,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -1927,7 +2062,8 @@
   "date": "2019-02-07",
   "date_text": "2/7/19",
   "season": "2018-2019",
-  "order": 170
+  "order": 170,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -1975,7 +2111,8 @@
   "date": "2006-11-20",
   "date_text": "11/20/06",
   "season": "2006-2007",
-  "order": 174
+  "order": 174,
+  "opponent": "Wiregrass Ranch"
  },
  {
   "section": "ind_game",
@@ -1986,7 +2123,8 @@
   "date": "2024-02-23",
   "date_text": "2/23/24",
   "season": "2023-2024",
-  "order": 175
+  "order": 175,
+  "opponent": "Palm Bay"
  },
  {
   "section": "ind_game",
@@ -1997,7 +2135,8 @@
   "date": "2022-12-06",
   "date_text": "12/6/22",
   "season": "2022-2023",
-  "order": 176
+  "order": 176,
+  "opponent": "Oak Ridge"
  },
  {
   "section": "ind_game",
@@ -2008,7 +2147,8 @@
   "date": "2017-02-08",
   "date_text": "2/08/17",
   "season": "2016-2017",
-  "order": 177
+  "order": 177,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -2019,7 +2159,8 @@
   "date": "2012-01-24",
   "date_text": "1/24/12",
   "season": "2011-2012",
-  "order": 178
+  "order": 178,
+  "opponent": "Seven Rivers Christian"
  },
  {
   "section": "ind_game",
@@ -2030,7 +2171,8 @@
   "date": "2024-12-19",
   "date_text": "12/19/24",
   "season": "2024-2025",
-  "order": 179
+  "order": 179,
+  "opponent": "Lake Minneola"
  },
  {
   "section": "ind_game",
@@ -2041,7 +2183,8 @@
   "date": "2020-12-08",
   "date_text": "12/8/20",
   "season": "2020-2021",
-  "order": 180
+  "order": 180,
+  "opponent": "Leesburg"
  },
  {
   "section": "ind_game",
@@ -2052,7 +2195,8 @@
   "date": "2020-01-24",
   "date_text": "1/24/20",
   "season": "2019-2020",
-  "order": 181
+  "order": 181,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -2063,7 +2207,8 @@
   "date": "2017-12-21",
   "date_text": "12/21/17",
   "season": "2017-2018",
-  "order": 182
+  "order": 182,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -2074,7 +2219,8 @@
   "date": "2014-02-13",
   "date_text": "2/13/14",
   "season": "2013-2014",
-  "order": 183
+  "order": 183,
+  "opponent": "Santa Fe"
  },
  {
   "section": "ind_game",
@@ -2085,7 +2231,8 @@
   "date": "2012-01-20",
   "date_text": "1/20/12",
   "season": "2011-2012",
-  "order": 184
+  "order": 184,
+  "opponent": "Crescent City"
  },
  {
   "section": "ind_game",
@@ -2109,7 +2256,8 @@
   "date": "2025-02-20",
   "date_text": "2/20/25",
   "season": "2024-2025",
-  "order": 186
+  "order": 186,
+  "opponent": "Tampa Catholic"
  },
  {
   "section": "ind_game",
@@ -2120,7 +2268,8 @@
   "date": "2014-12-23",
   "date_text": "12/23/14",
   "season": "2014-2015",
-  "order": 187
+  "order": 187,
+  "opponent": "Dunnellon"
  },
  {
   "section": "ind_game",
@@ -2157,7 +2306,8 @@
   "date": "2022-11-26",
   "date_text": "11/26/22",
   "season": "2022-2023",
-  "order": 190
+  "order": 190,
+  "opponent": "Windermere"
  },
  {
   "section": "ind_game",
@@ -2168,7 +2318,8 @@
   "date": "2020-02-12",
   "date_text": "2/12/20",
   "season": "2019-2020",
-  "order": 191
+  "order": 191,
+  "opponent": "Crystal River"
  },
  {
   "section": "ind_game",
@@ -2179,7 +2330,8 @@
   "date": "2016-12-10",
   "date_text": "12/10/16",
   "season": "2016-2017",
-  "order": 192
+  "order": 192,
+  "opponent": "Columbia"
  },
  {
   "section": "ind_game",
@@ -2216,7 +2368,8 @@
   "date": "2019-03-01",
   "date_text": "3/1/19",
   "season": "2018-2019",
-  "order": 195
+  "order": 195,
+  "opponent": "Cocoa"
  },
  {
   "section": "ind_game",
@@ -2227,7 +2380,8 @@
   "date": "2019-02-09",
   "date_text": "2/9/19",
   "season": "2018-2019",
-  "order": 196
+  "order": 196,
+  "opponent": "The Rock"
  },
  {
   "section": "ind_game",
@@ -2249,7 +2403,8 @@
   "date": "2011-01-27",
   "date_text": "1/27/11",
   "season": "2010-2011",
-  "order": 198
+  "order": 198,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -2260,7 +2415,8 @@
   "date": "2023-12-21",
   "date_text": "12/21/23",
   "season": "2023-2024",
-  "order": 199
+  "order": 199,
+  "opponent": "Buchholz"
  },
  {
   "section": "ind_game",
@@ -2271,7 +2427,8 @@
   "date": "2013-12-29",
   "date_text": "12/29/13",
   "season": "2013-2014",
-  "order": 200
+  "order": 200,
+  "opponent": "Leesburg"
  },
  {
   "section": "ind_game",
@@ -2283,7 +2440,8 @@
   "date_text": "2/13/14",
   "season": "2013-2014",
   "order": 201,
-  "note": "date corrected from 1/13/14 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 1/13/14 (confirmed against MaxPreps box score)",
+  "opponent": "Santa Fe"
  },
  {
   "section": "ind_game",
@@ -2359,7 +2517,8 @@
   "date": "2023-01-05",
   "date_text": "1/5/23",
   "season": "2022-2023",
-  "order": 207
+  "order": 207,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -2370,7 +2529,8 @@
   "date": "2022-12-03",
   "date_text": "12/3/22",
   "season": "2022-2023",
-  "order": 208
+  "order": 208,
+  "opponent": "Edgewater"
  },
  {
   "section": "ind_game",
@@ -2381,7 +2541,8 @@
   "date": "2017-12-16",
   "date_text": "12/16/17",
   "season": "2017-2018",
-  "order": 209
+  "order": 209,
+  "opponent": "Bishop Snyder"
  },
  {
   "section": "ind_game",
@@ -2392,7 +2553,8 @@
   "date": "2019-01-31",
   "date_text": "1/31/19",
   "season": "2018-2019",
-  "order": 210
+  "order": 210,
+  "opponent": "Bayside"
  },
  {
   "section": "ind_game",
@@ -2403,7 +2565,8 @@
   "date": "2024-02-20",
   "date_text": "2/20/24",
   "season": "2023-2024",
-  "order": 211
+  "order": 211,
+  "opponent": "Lake Highland Prep"
  },
  {
   "section": "ind_game",
@@ -2414,7 +2577,8 @@
   "date": "2022-12-06",
   "date_text": "12/6/22",
   "season": "2022-2023",
-  "order": 212
+  "order": 212,
+  "opponent": "Oak Ridge"
  },
  {
   "section": "ind_game",
@@ -2425,7 +2589,8 @@
   "date": "2022-01-08",
   "date_text": "1/8/22",
   "season": "2021-2022",
-  "order": 213
+  "order": 213,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -2436,7 +2601,8 @@
   "date": "2017-12-29",
   "date_text": "12/29/17",
   "season": "2017-2018",
-  "order": 214
+  "order": 214,
+  "opponent": "Pickerington Central"
  },
  {
   "section": "ind_game",
@@ -2447,7 +2613,8 @@
   "date": "2014-01-10",
   "date_text": "1/10/14",
   "season": "2013-2014",
-  "order": 215
+  "order": 215,
+  "opponent": "Hudson"
  },
  {
   "section": "ind_game",
@@ -2458,7 +2625,8 @@
   "date": "2006-12-27",
   "date_text": "12/27/06",
   "season": "2006-2007",
-  "order": 216
+  "order": 216,
+  "opponent": "Ocala Christian"
  },
  {
   "section": "ind_game",
@@ -2469,7 +2637,8 @@
   "date": "2022-01-18",
   "date_text": "1/18/22",
   "season": "2021-2022",
-  "order": 217
+  "order": 217,
+  "opponent": "CFCA"
  },
  {
   "section": "ind_game",
@@ -2480,7 +2649,8 @@
   "date": "2019-02-21",
   "date_text": "2/21/19",
   "season": "2018-2019",
-  "order": 218
+  "order": 218,
+  "opponent": "The First Academy (Orlando)"
  },
  {
   "section": "ind_game",
@@ -2515,7 +2685,8 @@
   "date": "2024-12-07",
   "date_text": "12/7/24",
   "season": "2024-2025",
-  "order": 221
+  "order": 221,
+  "opponent": "Bell Creek"
  },
  {
   "section": "ind_game",
@@ -2526,7 +2697,8 @@
   "date": "2023-02-08",
   "date_text": "2/8/23",
   "season": "2022-2023",
-  "order": 222
+  "order": 222,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -2537,7 +2709,8 @@
   "date": "2023-01-14",
   "date_text": "1/14/23",
   "season": "2022-2023",
-  "order": 223
+  "order": 223,
+  "opponent": "Lake Howell"
  },
  {
   "section": "ind_game",
@@ -2548,7 +2721,8 @@
   "date": "2022-01-07",
   "date_text": "1/7/22",
   "season": "2021-2022",
-  "order": 224
+  "order": 224,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -2559,7 +2733,8 @@
   "date": "2019-02-04",
   "date_text": "2/4/19",
   "season": "2018-2019",
-  "order": 225
+  "order": 225,
+  "opponent": "Madison County"
  },
  {
   "section": "ind_game",
@@ -2570,7 +2745,8 @@
   "date": "2019-01-11",
   "date_text": "1/11/19",
   "season": "2018-2019",
-  "order": 226
+  "order": 226,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -2581,7 +2757,8 @@
   "date": "2014-01-08",
   "date_text": "1/8/14",
   "season": "2013-2014",
-  "order": 227
+  "order": 227,
+  "opponent": "Legacy Charter"
  },
  {
   "section": "ind_game",
@@ -2592,7 +2769,8 @@
   "date": "2013-01-08",
   "date_text": "1/8/13",
   "season": "2012-2013",
-  "order": 228
+  "order": 228,
+  "opponent": "South Lake"
  },
  {
   "section": "ind_game",
@@ -2604,7 +2782,8 @@
   "date_text": "12/28/11",
   "season": "2011-2012",
   "order": 229,
-  "note": "date corrected from 12/28/12 (confirmed against MaxPreps box score)"
+  "note": "date corrected from 12/28/12 (confirmed against MaxPreps box score)",
+  "opponent": "Matanzas"
  },
  {
   "section": "ind_game",
@@ -2615,7 +2794,8 @@
   "date": "2011-02-01",
   "date_text": "2/1/11",
   "season": "2010-2011",
-  "order": 230
+  "order": 230,
+  "opponent": "Seven Rivers Christian"
  },
  {
   "section": "ind_game",
@@ -2626,7 +2806,8 @@
   "date": "2009-12-15",
   "date_text": "12/15/09",
   "season": "2009-2010",
-  "order": 231
+  "order": 231,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -2663,7 +2844,8 @@
   "date": "2013-12-27",
   "date_text": "12/27/13",
   "season": "2013-2014",
-  "order": 234
+  "order": 234,
+  "opponent": "South Lake"
  },
  {
   "section": "ind_game",
@@ -2674,7 +2856,8 @@
   "date": "2021-01-23",
   "date_text": "1/23/21",
   "season": "2020-2021",
-  "order": 235
+  "order": 235,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -2685,7 +2868,8 @@
   "date": "2024-01-26",
   "date_text": "1/26/24",
   "season": "2023-2024",
-  "order": 236
+  "order": 236,
+  "opponent": "Tampa Catholic"
  },
  {
   "section": "ind_game",
@@ -2696,7 +2880,8 @@
   "date": "2018-12-17",
   "date_text": "12/17/18",
   "season": "2018-2019",
-  "order": 237
+  "order": 237,
+  "opponent": "Lehigh"
  },
  {
   "section": "ind_game",
@@ -2707,7 +2892,8 @@
   "date": "2012-12-29",
   "date_text": "12/29/12",
   "season": "2012-2013",
-  "order": 238
+  "order": 238,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -2718,7 +2904,8 @@
   "date": "2022-02-01",
   "date_text": "2/1/22",
   "season": "2021-2022",
-  "order": 239
+  "order": 239,
+  "opponent": "Rockledge"
  },
  {
   "section": "ind_game",
@@ -2729,7 +2916,8 @@
   "date": "2019-02-26",
   "date_text": "2/26/19",
   "season": "2018-2019",
-  "order": 240
+  "order": 240,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -2740,7 +2928,8 @@
   "date": "2019-02-04",
   "date_text": "2/4/19",
   "season": "2018-2019",
-  "order": 241
+  "order": 241,
+  "opponent": "Madison County"
  },
  {
   "section": "ind_game",
@@ -2751,7 +2940,8 @@
   "date": "2014-01-10",
   "date_text": "1/10/14",
   "season": "2013-2014",
-  "order": 242
+  "order": 242,
+  "opponent": "Hudson"
  },
  {
   "section": "ind_game",
@@ -2762,7 +2952,8 @@
   "date": "2013-11-21",
   "date_text": "11/21/13",
   "season": "2013-2014",
-  "order": 243
+  "order": 243,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -2773,7 +2964,8 @@
   "date": "2023-01-31",
   "date_text": "1/31/23",
   "season": "2022-2023",
-  "order": 244
+  "order": 244,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -2784,7 +2976,8 @@
   "date": "2023-01-27",
   "date_text": "1/27/23",
   "season": "2022-2023",
-  "order": 245
+  "order": 245,
+  "opponent": "Calusa Prep"
  },
  {
   "section": "ind_game",
@@ -2795,7 +2988,8 @@
   "date": "2021-01-30",
   "date_text": "1/30/21",
   "season": "2020-2021",
-  "order": 246
+  "order": 246,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -2806,7 +3000,8 @@
   "date": "2020-12-22",
   "date_text": "12/22/20",
   "season": "2020-2021",
-  "order": 247
+  "order": 247,
+  "opponent": "Vanguard"
  },
  {
   "section": "ind_game",
@@ -2817,7 +3012,8 @@
   "date": "2019-02-15",
   "date_text": "2/15/19",
   "season": "2018-2019",
-  "order": 248
+  "order": 248,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -2828,7 +3024,8 @@
   "date": "2019-02-13",
   "date_text": "2/13/19",
   "season": "2018-2019",
-  "order": 249
+  "order": 249,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -2839,7 +3036,8 @@
   "date": "2019-01-31",
   "date_text": "1/31/19",
   "season": "2018-2019",
-  "order": 250
+  "order": 250,
+  "opponent": "Bayside"
  },
  {
   "section": "ind_game",
@@ -2850,7 +3048,8 @@
   "date": "2019-01-25",
   "date_text": "1/25/19",
   "season": "2018-2019",
-  "order": 251
+  "order": 251,
+  "opponent": "Miami Christian"
  },
  {
   "section": "ind_game",
@@ -2861,7 +3060,8 @@
   "date": "2013-12-20",
   "date_text": "12/20/13",
   "season": "2013-2014",
-  "order": 252
+  "order": 252,
+  "opponent": "Interlachen"
  },
  {
   "section": "ind_game",
@@ -2872,7 +3072,8 @@
   "date": "2011-01-14",
   "date_text": "1/14/11",
   "season": "2010-2011",
-  "order": 253
+  "order": 253,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -2894,7 +3095,8 @@
   "date": "2013-01-29",
   "date_text": "1/29/13",
   "season": "2012-2013",
-  "order": 255
+  "order": 255,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -2905,7 +3107,8 @@
   "date": "2018-12-04",
   "date_text": "12/4/18",
   "season": "2018-2019",
-  "order": 256
+  "order": 256,
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -2927,7 +3130,8 @@
   "date": "2020-02-12",
   "date_text": "2/12/20",
   "season": "2019-2020",
-  "order": 258
+  "order": 258,
+  "opponent": "Crystal River"
  },
  {
   "section": "ind_game",
@@ -2938,7 +3142,8 @@
   "date": "2018-12-14",
   "date_text": "12/14/18",
   "season": "2018-2019",
-  "order": 259
+  "order": 259,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -2949,7 +3154,8 @@
   "date": "2011-01-21",
   "date_text": "1/21/11",
   "season": "2010-2011",
-  "order": 260
+  "order": 260,
+  "opponent": "Crystal River"
  },
  {
   "section": "ind_game",
@@ -2960,7 +3166,8 @@
   "date": "2010-12-29",
   "date_text": "12/29/10",
   "season": "2010-2011",
-  "order": 261
+  "order": 261,
+  "opponent": "Belleview"
  },
  {
   "section": "ind_game",
@@ -2971,7 +3178,8 @@
   "date": "2007-02-02",
   "date_text": "2/2/07",
   "season": "2006-2007",
-  "order": 262
+  "order": 262,
+  "opponent": "First Academy (Leesburg)"
  },
  {
   "section": "ind_game",
@@ -2995,7 +3203,8 @@
   "date": "2019-02-07",
   "date_text": "2/7/19",
   "season": "2018-2019",
-  "order": 264
+  "order": 264,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -3006,7 +3215,8 @@
   "date": "2018-12-15",
   "date_text": "12/15/18",
   "season": "2018-2019",
-  "order": 265
+  "order": 265,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -3028,7 +3238,8 @@
   "date": "2024-12-14",
   "date_text": "12/14/24",
   "season": "2024-2025",
-  "order": 267
+  "order": 267,
+  "opponent": "Cedar Grove (GA)"
  },
  {
   "section": "ind_game",
@@ -3039,7 +3250,8 @@
   "date": "2013-11-21",
   "date_text": "11/21/13",
   "season": "2013-2014",
-  "order": 268
+  "order": 268,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -3063,7 +3275,8 @@
   "date_text": "1/14/11",
   "season": "2010-2011",
   "order": 270,
-  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)"
+  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -3074,7 +3287,8 @@
   "date": "2011-01-14",
   "date_text": "1/14/11",
   "season": "2010-2011",
-  "order": 271
+  "order": 271,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -3085,7 +3299,8 @@
   "date": "2010-12-14",
   "date_text": "12/14/10",
   "season": "2010-2011",
-  "order": 272
+  "order": 272,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -3109,7 +3324,8 @@
   "date": "2025-01-02",
   "date_text": "1/2/25",
   "season": "2024-2025",
-  "order": 274
+  "order": 274,
+  "opponent": "University Christian"
  },
  {
   "section": "ind_game",
@@ -3120,7 +3336,8 @@
   "date": "2024-12-10",
   "date_text": "12/10/24",
   "season": "2024-2025",
-  "order": 275
+  "order": 275,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -3131,7 +3348,8 @@
   "date": "2019-12-19",
   "date_text": "12/19/19",
   "season": "2019-2020",
-  "order": 276
+  "order": 276,
+  "opponent": "Lake Minneola"
  },
  {
   "section": "ind_game",
@@ -3142,7 +3360,8 @@
   "date": "2018-01-12",
   "date_text": "1/12/18",
   "season": "2017-2018",
-  "order": 277
+  "order": 277,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -3154,7 +3373,8 @@
   "date_text": "11/21/25",
   "season": "2025-2026",
   "note": "added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)",
-  "order": 278
+  "order": 278,
+  "opponent": "IMG National"
  },
  {
   "section": "ind_game",
@@ -3308,7 +3528,8 @@
   "date": "2011-12-28",
   "date_text": "12/28/11",
   "season": "2011-2012",
-  "order": 290
+  "order": 290,
+  "opponent": "Matanzas"
  },
  {
   "section": "ind_game",
@@ -3319,7 +3540,8 @@
   "date": "2024-02-15",
   "date_text": "2/15/24",
   "season": "2023-2024",
-  "order": 291
+  "order": 291,
+  "opponent": "Palatka"
  },
  {
   "section": "ind_game",
@@ -3330,7 +3552,8 @@
   "date": "2023-01-05",
   "date_text": "1/5/23",
   "season": "2022-2023",
-  "order": 292
+  "order": 292,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -3341,7 +3564,8 @@
   "date": "2022-12-15",
   "date_text": "12/15/22",
   "season": "2022-2023",
-  "order": 293
+  "order": 293,
+  "opponent": "Clearwater"
  },
  {
   "section": "ind_game",
@@ -3352,7 +3576,8 @@
   "date": "2022-01-26",
   "date_text": "1/26/22",
   "season": "2021-2022",
-  "order": 294
+  "order": 294,
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -3363,7 +3588,8 @@
   "date": "2011-01-27",
   "date_text": "1/27/11",
   "season": "2010-2011",
-  "order": 295
+  "order": 295,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -3374,7 +3600,8 @@
   "date": "2024-02-29",
   "date_text": "2/29/24",
   "season": "2023-2024",
-  "order": 296
+  "order": 296,
+  "opponent": "Andrew Jackson"
  },
  {
   "section": "ind_game",
@@ -3385,7 +3612,8 @@
   "date": "2022-02-22",
   "date_text": "2/22/22",
   "season": "2021-2022",
-  "order": 297
+  "order": 297,
+  "opponent": "Satellite"
  },
  {
   "section": "ind_game",
@@ -3396,7 +3624,8 @@
   "date": "2022-01-29",
   "date_text": "1/29/22",
   "season": "2021-2022",
-  "order": 298
+  "order": 298,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -3407,7 +3636,8 @@
   "date": "2021-12-28",
   "date_text": "12/28/21",
   "season": "2021-2022",
-  "order": 299
+  "order": 299,
+  "opponent": "Concord Academy (NC)"
  },
  {
   "section": "ind_game",
@@ -3418,7 +3648,8 @@
   "date": "2019-12-17",
   "date_text": "12/17/19",
   "season": "2019-2020",
-  "order": 300
+  "order": 300,
+  "opponent": "South Sumter"
  },
  {
   "section": "ind_game",
@@ -3429,7 +3660,8 @@
   "date": "2011-02-01",
   "date_text": "2/1/11",
   "season": "2010-2011",
-  "order": 301
+  "order": 301,
+  "opponent": "Seven Rivers Christian"
  },
  {
   "section": "ind_game",
@@ -3440,7 +3672,8 @@
   "date": "2008-02-01",
   "date_text": "2/1/08",
   "season": "2007-2008",
-  "order": 302
+  "order": 302,
+  "opponent": "First Academy (Leesburg)"
  },
  {
   "section": "ind_game",
@@ -3462,7 +3695,8 @@
   "date": "2007-01-16",
   "date_text": "1/16/07",
   "season": "2006-2007",
-  "order": 304
+  "order": 304,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -3473,7 +3707,8 @@
   "date": "2024-01-26",
   "date_text": "1/26/24",
   "season": "2023-2024",
-  "order": 305
+  "order": 305,
+  "opponent": "Tampa Catholic"
  },
  {
   "section": "ind_game",
@@ -3484,7 +3719,8 @@
   "date": "2021-01-23",
   "date_text": "1/23/21",
   "season": "2020-2021",
-  "order": 306
+  "order": 306,
+  "opponent": "Wildwood"
  },
  {
   "section": "ind_game",
@@ -3495,7 +3731,8 @@
   "date": "2014-01-10",
   "date_text": "1/10/14",
   "season": "2013-2014",
-  "order": 307
+  "order": 307,
+  "opponent": "Hudson"
  },
  {
   "section": "ind_game",
@@ -3506,7 +3743,8 @@
   "date": "2013-12-27",
   "date_text": "12/27/13",
   "season": "2013-2014",
-  "order": 308
+  "order": 308,
+  "opponent": "South Lake"
  },
  {
   "section": "ind_game",
@@ -3517,7 +3755,8 @@
   "date": "2013-12-20",
   "date_text": "12/20/13",
   "season": "2013-2014",
-  "order": 309
+  "order": 309,
+  "opponent": "Interlachen"
  },
  {
   "section": "ind_game",
@@ -3528,7 +3767,8 @@
   "date": "2013-11-21",
   "date_text": "11/21/13",
   "season": "2013-2014",
-  "order": 310
+  "order": 310,
+  "opponent": "Umatilla"
  },
  {
   "section": "ind_game",
@@ -3539,7 +3779,8 @@
   "date": "2011-12-28",
   "date_text": "12/28/11",
   "season": "2011-2012",
-  "order": 311
+  "order": 311,
+  "opponent": "Matanzas"
  },
  {
   "section": "ind_season",
