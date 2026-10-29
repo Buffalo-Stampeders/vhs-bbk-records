@@ -1,14 +1,18 @@
-<!-- Paste into the SIDEARM page's HTML/Source view. The iframe grows to fit the record book (no inner scrollbar)
-     and reloads the latest build at most once an hour, so syncs show up without a hard refresh. -->
-<iframe id="vhs-records" title="VHS Boys Basketball Record Book" scrolling="no" style="width:100%;height:1600px;border:0;display:block;overflow:hidden"></iframe>
+<!-- VHS Boys Basketball Record Book embed for athletics.tvcs.org (SIDEARM).
+     Paste in the page's HTML/Source view. The frame grows to fit the page (no inner scrollbar),
+     picks up new builds within the hour, and falls back to a scrolling frame if the resize messages never arrive. -->
+<iframe id="vhs-records" title="VHS Boys Basketball Record Book" scrolling="no" style="width:100%;height:1400px;border:0;display:block;overflow:hidden;background:#f7f5f0"></iframe>
 <script>
 (function(){
-  var f=document.getElementById('vhs-records');
+  var f=document.getElementById('vhs-records'), sized=false;
   window.addEventListener('message',function(e){
     if(!e.data||e.data.type!=='vhs-records-height'||!e.source||e.source!==f.contentWindow) return;
-    var h=parseInt(e.data.height,10); if(h>200) f.style.height=(h+8)+'px';
+    var h=parseInt(e.data.height,10); if(h>200){ f.style.height=(h+8)+'px'; sized=true; }
   });
-  f.addEventListener('load',function(){ try{ f.contentWindow.postMessage({type:'vhs-records-height?'},'*'); }catch(x){} });
+  f.addEventListener('load',function(){
+    try{ f.contentWindow.postMessage({type:'vhs-records-height?'},'*'); }catch(x){}
+    setTimeout(function(){ if(!sized){ f.setAttribute('scrolling','auto'); f.style.overflow='auto'; f.style.height='1600px'; } },6000);
+  });
   f.src='https://buffalo-stampeders.github.io/vhs-bbk-records/?v='+Math.floor(Date.now()/3600000);
 })();
 </script>
