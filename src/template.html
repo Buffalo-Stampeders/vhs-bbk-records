@@ -48,7 +48,7 @@ h1 span{color:var(--tan)}
 #clear:hover{color:var(--forest)}
 /* content */
 main .wrap{padding-block:28px 56px}
-.status{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.status{display:flex;justify-content:flex-end;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 .status .count{font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;color:var(--tan)}
 .status .count b{color:var(--forest);font-variant-numeric:tabular-nums}
 .status .hint{font-size:.8rem;color:var(--muted)}
@@ -117,7 +117,7 @@ html.embedded{overflow:hidden}
   <div id="livenotes" class="notes" hidden></div>
   <div id="seasonview" hidden></div>
   <div id="pcard" hidden></div>
-  <div class="status"><div class="count">Showing <b id="n-shown">0</b> of <b id="n-total">0</b></div><div class="hint" id="hint"></div></div>
+  <div class="status"><div class="count" hidden>Showing <b id="n-shown">0</b> of <b id="n-total">0</b></div><div class="hint" id="hint"></div></div>
   <div id="results"></div>
 </div></main>
 
