@@ -1,0 +1,12 @@
+<!-- Paste into the SIDEARM page's HTML/Source view. The iframe grows to fit the record book; no inner scrollbar. -->
+<iframe id="vhs-records" src="https://buffalo-stampeders.github.io/vhs-bbk-records/" title="VHS Boys Basketball Record Book" scrolling="no" style="width:100%;height:1600px;border:0;display:block;overflow:hidden" loading="lazy"></iframe>
+<script>
+(function(){
+  var f=document.getElementById('vhs-records');
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='vhs-records-height'||!e.source||e.source!==f.contentWindow) return;
+    var h=parseInt(e.data.height,10); if(h>200) f.style.height=(h+8)+'px';
+  });
+  f.addEventListener('load',function(){ try{ f.contentWindow.postMessage({type:'vhs-records-height?'},'*'); }catch(x){} });
+})();
+</script>

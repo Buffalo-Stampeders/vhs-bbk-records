@@ -88,6 +88,10 @@ tr.live td{background:var(--live-row)}
 .gtype{font-size:.66rem;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--tan-ink)}
 footer .wrap{padding-block:16px 28px;font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 20px;border-top:1px solid var(--card-line)}
 @media (prefers-reduced-motion:no-preference){.tab,#clear{transition:background .15s,color .15s}}
+.embedded .bar{position:static;box-shadow:none}
+.embedded th{position:static}
+.embedded body{overflow:hidden}
+html.embedded{overflow:hidden}
 </style>
 
 <header class="band"><div class="wrap">
@@ -333,5 +337,16 @@ function applyLive(){
   db.collection('seasons').onSnapshot(snap=>{ LIVE.seasons = snap.docs.filter(d=>d.exists).map(d=>d.data()).filter(s=>s&&s.season&&s.games); gotSeasons=true; if(gotCfg) applyLive(); }, e=>console.warn('seasons', e));
 })();
 fillSelects(); render();
+// Embedded (iframe) mode: report our height so the host page can size the frame and avoid inner scrolling.
+(function(){
+  if(window.parent===window) return;
+  document.documentElement.classList.add('embedded');
+  let last=0;
+  const post=()=>{ const h=Math.ceil(document.documentElement.scrollHeight); if(Math.abs(h-last)<2) return; last=h; try{ window.parent.postMessage({type:'vhs-records-height', height:h}, '*'); }catch(e){} };
+  if('ResizeObserver' in window) new ResizeObserver(post).observe(document.body);
+  window.addEventListener('load', post); setInterval(post, 1500); post();
+  // host may ask for the height explicitly
+  window.addEventListener('message', e=>{ if(e.data && e.data.type==='vhs-records-height?') { last=0; post(); } });
+})();
 })();
 </script>
