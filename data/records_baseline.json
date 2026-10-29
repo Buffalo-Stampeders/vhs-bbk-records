@@ -382,10 +382,12 @@
   "value": 33.0,
   "value_text": "33",
   "player": "Logan Betzer",
-  "date": "2017-01-06",
-  "date_text": "1/6/17",
+  "date": "2017-01-05",
+  "date_text": "1/5/17",
   "season": "2016-2017",
-  "order": 32
+  "order": 32,
+  "note": "date corrected from 1/6/17 (per Marty, 10/29/2026)",
+  "opponent": "Liberty Christian Prep"
  },
  {
   "section": "ind_game",
@@ -617,7 +619,8 @@
   "date": "2005-12-01",
   "date_text": "12/1/05",
   "season": "2005-2006",
-  "order": 51
+  "order": 51,
+  "note": "opponent unknown (records lost)"
  },
  {
   "section": "ind_game",
@@ -1040,10 +1043,12 @@
   "value": 9.0,
   "value_text": "9",
   "player": "Tre Mann",
-  "date": "2016-01-17",
-  "date_text": "1/17/16",
+  "date": "2016-01-16",
+  "date_text": "1/16/16",
   "season": "2015-2016",
-  "order": 86
+  "order": 86,
+  "note": "date corrected from 1/17/16 (per Marty, 10/29/2026)",
+  "opponent": "Crystal River"
  },
  {
   "section": "ind_game",
@@ -1774,10 +1779,12 @@
   "value": 13.0,
   "value_text": "13",
   "player": "Tre Mann",
-  "date": "2016-11-21",
-  "date_text": "11/21/16",
+  "date": "2016-11-22",
+  "date_text": "11/22/16",
   "season": "2016-2017",
-  "order": 146
+  "order": 146,
+  "note": "date corrected from 11/21/16 (per Marty, 10/29/2026)",
+  "opponent": "CFCA"
  },
  {
   "section": "ind_game",
@@ -2077,10 +2084,12 @@
   "value": 10.0,
   "value_text": "10",
   "player": "Ed Porter",
-  "date": "2014-12-10",
-  "date_text": "12/10/14",
-  "season": "2014-2015",
-  "order": 171
+  "date": "2013-12-10",
+  "date_text": "12/10/13",
+  "season": "2013-2014",
+  "order": 171,
+  "note": "date corrected from 12/10/14 (per Marty, 10/29/2026)",
+  "opponent": "Trinity Catholic"
  },
  {
   "section": "ind_game",
@@ -3129,10 +3138,12 @@
   "value": 10.0,
   "value_text": "10",
   "player": "Rashad Jackson",
-  "date": "2006-12-17",
-  "date_text": "12/17/06",
+  "date": "2006-12-18",
+  "date_text": "12/18/06",
   "season": "2006-2007",
-  "order": 257
+  "order": 257,
+  "note": "date corrected from 12/17/06 (per Marty, 10/29/2026)",
+  "opponent": "St. John Lutheran"
  },
  {
   "section": "ind_game",
@@ -3273,10 +3284,12 @@
   "value": 8.0,
   "value_text": "8",
   "player": "Terry Ivery",
-  "date": "2017-01-09",
-  "date_text": "1/9/17",
+  "date": "2017-01-10",
+  "date_text": "1/10/17",
   "season": "2016-2017",
-  "order": 269
+  "order": 269,
+  "note": "date corrected from 1/9/17 (per Marty, 10/29/2026)",
+  "opponent": "Mount Dora"
  },
  {
   "section": "ind_game",
@@ -3733,7 +3746,8 @@
   "date": "2007-01-13",
   "date_text": "1/13/07",
   "season": "2006-2007",
-  "order": 306
+  "order": 306,
+  "opponent": "Seven Rivers Christian"
  },
  {
   "section": "ind_game",

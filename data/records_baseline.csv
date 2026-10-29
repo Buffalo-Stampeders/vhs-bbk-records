@@ -30,7 +30,7 @@ ind_game,Points,28,33,33.0,Tre Mann,Wildwood,,2017-11-30,11/30/17,2017-2018,,,,,
 ind_game,Points,29,33,33.0,Eric Turner,Leesburg,,2013-12-29,12/29/13,2013-2014,,,,,,
 ind_game,Points,30,33,33.0,Noor Davis,South Sumter,,2011-01-27,1/27/11,2010-2011,,,,,,
 ind_game,Points,31,33,33.0,Kyle Stollar,Trinity Catholic,,2011-12-21,12/21/11,2011-2012,,,,,,
-ind_game,Points,32,33,33.0,Logan Betzer,,,2017-01-06,1/6/17,2016-2017,,,,,,
+ind_game,Points,32,33,33.0,Logan Betzer,Liberty Christian Prep,,2017-01-05,1/5/17,2016-2017,,,,,,"date corrected from 1/6/17 (per Marty, 10/29/2026)"
 ind_game,Points,33,33,33,Shoalton Roberts,Citrus,,2014-11-24,11/24/14,2014-2015,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Points,34,33,33,Tre Mann,South Sumter,,2018-12-14,12/14/18,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Points,35,33,33,Tre Mann,Miami Christian,,2019-01-25,1/25/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
@@ -49,7 +49,7 @@ ind_game,Field Goals Made,12,13,13.0,Brandon Farmer,Bayside,,2019-01-31,1/31/19,
 ind_game,Field Goals Made,13,13,13.0,Tre Mann,Wildwood,,2018-12-15,12/15/18,2018-2019,,,,,,
 ind_game,Field Goals Made,14,13,13.0,Tre Mann,Wildwood,,2017-11-30,11/30/17,2017-2018,,,,,,
 ind_game,Field Goals Made,15,13,13.0,Isaiah Jackson,Trinity Catholic,,2014-02-07,2/7/14,2013-2014,,,,,,date corrected from 2/13/14 (confirmed against MaxPreps box score)
-ind_game,Field Goals Made,16,13,13.0,Kaleb Webb,,,2005-12-01,12/1/05,2005-2006,,,,,,
+ind_game,Field Goals Made,16,13,13.0,Kaleb Webb,,,2005-12-01,12/1/05,2005-2006,,,,,,opponent unknown (records lost)
 ind_game,Field Goals Attempted,1,30,30.0,Tre Mann,Wasatch (UT),,2019-01-24,1/24/19,2018-2019,,,,,,
 ind_game,Field Goals Attempted,2,27,27.0,Sam Walters,Mount Dora,,2023-02-04,2/4/23,2022-2023,,,,,,
 ind_game,Field Goals Attempted,3,27,27.0,Ricardo Wright,Wildwood,,2020-01-24,1/24/20,2019-2020,,,,,,
@@ -84,7 +84,7 @@ ind_game,Field Goals Attempted,31,22,22,Tre Mann,Abington,,2018-01-27,1/27/18,20
 ind_game,Field Goals Attempted,32,22,22,Sam Walters,Poinciana,,2021-12-18,12/18/21,2021-2022,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Three-Pointers Made,1,10,10.0,Lane Munz,Sonrise Christian,,2012-12-18,12/18/12,2012-2013,,,,,,
 ind_game,Three-Pointers Made,2,9,9.0,Jared Thompson,Westminster Academy,,2025-01-25,1/25/25,2024-2025,,,,,,
-ind_game,Three-Pointers Made,3,9,9.0,Tre Mann,,,2016-01-17,1/17/16,2015-2016,,,,,,
+ind_game,Three-Pointers Made,3,9,9.0,Tre Mann,Crystal River,,2016-01-16,1/16/16,2015-2016,,,,,,"date corrected from 1/17/16 (per Marty, 10/29/2026)"
 ind_game,Three-Pointers Made,4,8,8.0,"Aaron Britt, Jr.",South Sumter,,2025-02-07,2/7/25,2024-2025,,,,,,
 ind_game,Three-Pointers Made,5,8,8.0,Ricardo Wright,South Sumter,,2020-01-14,1/14/20,2019-2020,,,,,,
 ind_game,Three-Pointers Made,6,7,7.0,Adyn Corbin,University Christian,,2025-01-02,1/2/25,2024-2025,,,,,,date corrected from 1/2/24 (confirmed against MaxPreps box score)
@@ -144,7 +144,7 @@ ind_game,Free Throws Made,5,14,14.0,Sam Walters,Vanguard,,2022-01-07,1/7/22,2021
 ind_game,Free Throws Made,6,14,14.0,Ricardo Wright,Wildwood,,2020-01-24,1/24/20,2019-2020,,,,,,
 ind_game,Free Throws Made,7,14,14.0,Allen Liu,Seven Rivers Christian,,2012-01-24,1/24/12,2011-2012,,,,,,
 ind_game,Free Throws Made,8,13,13.0,Sam Walters,Oak Ridge,,2022-12-06,12/6/22,2022-2023,,,,,,
-ind_game,Free Throws Made,9,13,13.0,Tre Mann,,,2016-11-21,11/21/16,2016-2017,,,,,,
+ind_game,Free Throws Made,9,13,13.0,Tre Mann,CFCA,,2016-11-22,11/22/16,2016-2017,,,,,,"date corrected from 11/21/16 (per Marty, 10/29/2026)"
 ind_game,Free Throws Made,10,13,13.0,Tre Mann,Columbia,,2016-12-10,12/10/16,2016-2017,,,,,,
 ind_game,Free Throws Made,11,13,13,Tre Mann,Wildwood,,2021-01-30,1/30/21,2020-2021,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Made,12,12,12.0,Adyn Corbin,Lake Minneola,,2024-12-19,12/19/24,2024-2025,,,,,,
@@ -169,7 +169,7 @@ ind_game,Free Throws Made,30,10,10.0,Sam Walters,Covington Catholic,,2021-12-29,
 ind_game,Free Throws Made,31,10,10.0,Ricardo Wright,Seffner Christian,,2019-12-27,12/27/19,2019-2020,,,,,,
 ind_game,Free Throws Made,32,10,10.0,Ricardo Wright,South Sumter,,2019-12-17,12/17/19,2019-2020,,,,,,
 ind_game,Free Throws Made,33,10,10.0,Brandon Farmer,Wildwood,,2019-02-07,2/7/19,2018-2019,,,,,,
-ind_game,Free Throws Made,34,10,10.0,Ed Porter,,,2014-12-10,12/10/14,2014-2015,,,,,,
+ind_game,Free Throws Made,34,10,10.0,Ed Porter,Trinity Catholic,,2013-12-10,12/10/13,2013-2014,,,,,,"date corrected from 12/10/14 (per Marty, 10/29/2026)"
 ind_game,Free Throws Made,35,10,10,Allen Liu,Crescent City,,2012-01-20,1/20/12,2011-2012,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Made,36,10,10,Tre Mann,Pickerington Central,,2017-12-29,12/29/17,2017-2018,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Made,37,10,10,Eric Turner,North Marion,,2013-12-23,12/23/13,2013-2014,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
@@ -255,7 +255,7 @@ ind_game,Assists,17,10,10.0,Tre Mann,Bayside,,2019-01-31,1/31/19,2018-2019,,,,,,
 ind_game,Assists,18,10,10.0,Terry Ivery,Miami Christian,,2019-01-25,1/25/19,2018-2019,,,,,,
 ind_game,Assists,19,10,10.0,Isaiah Jackson,Interlachen,,2013-12-20,12/20/13,2013-2014,,,,,,
 ind_game,Assists,20,10,10.0,Nigel Barker,Umatilla,,2011-01-14,1/14/11,2010-2011,,,,,,
-ind_game,Assists,21,10,10.0,Rashad Jackson,,,2006-12-17,12/17/06,2006-2007,,,,,,
+ind_game,Assists,21,10,10.0,Rashad Jackson,St. John Lutheran,,2006-12-18,12/18/06,2006-2007,,,,,,"date corrected from 12/17/06 (per Marty, 10/29/2026)"
 ind_game,Assists,22,10,10.0,Austin Tatman,Umatilla,,2013-01-29,1/29/13,2012-2013,,,,,,
 ind_game,Steals,1,10,10.0,Terry Ivery,Mount Dora,,2018-12-04,12/4/18,2018-2019,,,,,,
 ind_game,Steals,2,10,10.0,Isaiah Jackson,Trinity Catholic,,2014-02-07,2/7/14,2013-2014,,,,,,
@@ -267,7 +267,7 @@ ind_game,Steals,7,9,9.0,Rashad Jackson,First Academy (Leesburg),,2007-02-02,2/2/
 ind_game,Steals,8,9,9,Shoalton Roberts,Melody Christian Academy,,2014-12-01,12/1/14,2014-2015,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Steals,9,8,8.0,Terry Ivery,Wildwood,,2019-02-07,2/7/19,2018-2019,,,,,,
 ind_game,Steals,10,8,8.0,Terry Ivery,Wildwood,,2018-12-15,12/15/18,2018-2019,,,,,,
-ind_game,Steals,11,8,8.0,Terry Ivery,,,2017-01-09,1/9/17,2016-2017,,,,,,
+ind_game,Steals,11,8,8.0,Terry Ivery,Mount Dora,,2017-01-10,1/10/17,2016-2017,,,,,,"date corrected from 1/9/17 (per Marty, 10/29/2026)"
 ind_game,Steals,12,7,7.0,Adyn Corbin,Cedar Grove (GA),,2024-12-14,12/14/24,2024-2025,,,,,,
 ind_game,Steals,13,7,7.0,Isaiah Jackson,Umatilla,,2013-11-21,11/21/13,2013-2014,,,,,,
 ind_game,Steals,14,7,7.0,Nigel Barker,Mount Dora,,2011-01-18,1/18/11,2010-2011,,,,,,
@@ -304,7 +304,7 @@ ind_game,Blocks,10,5,5.0,Sam Walters,Concord Academy (NC),,2021-12-28,12/28/21,2
 ind_game,Blocks,11,5,5.0,Diego Romero,South Sumter,,2019-12-17,12/17/19,2019-2020,,,,,,
 ind_game,Blocks,12,5,5.0,Justin Hall,Seven Rivers Christian,,2011-02-01,2/1/11,2010-2011,,,,,,
 ind_game,Blocks,13,5,5.0,Corey Leahy,First Academy (Leesburg),,2008-02-01,2/1/08,2007-2008,,,,,,
-ind_game,Blocks,14,5,5.0,Zach Rix,,,2007-01-13,1/13/07,2006-2007,,,,,,
+ind_game,Blocks,14,5,5.0,Zach Rix,Seven Rivers Christian,,2007-01-13,1/13/07,2006-2007,,,,,,
 ind_game,Blocks,15,5,5.0,Corey Leahy,Umatilla,,2007-01-16,1/16/07,2006-2007,,,,,,
 ind_game,Triple Double,1,20 points/10 rebounds/12 assists,,Adyn Corbin,Tampa Catholic,,2024-01-26,1/26/24,2023-2024,,,,,,
 ind_game,Triple Double,2,10 points/10 rebounds/14 assists,,Corey Goldwire,Wildwood,,2021-01-23,1/23/21,2020-2021,,,,,,
