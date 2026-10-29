@@ -1,104 +1,99 @@
 <title>VHS Boys Basketball Record Book</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: scoreboard header band, sticky filter bar, one dense ledger table; condensed athletic type on forest green + tan */
+/* Layout: hero band + sticky filter bar + sectioned record tables. Styled to match athletics.tvcs.org (SIDEARM: Open Sans, forest green, tan). Single light theme on purpose: it lives inside the athletics site. */
 :root{
-  --green:#00492c; --green-deep:#002d1b; --tan:#e4ce9b; --tan-deep:#c9ad66;
-  --bg:#f6f2e8; --surface:#ffffff; --fg:#17201b; --muted:#5f6a63; --line:#d9d2bf;
-  --row-alt:#f3eee0; --hi:#fff4cf; --accent:#00492c; --accent-fg:#e4ce9b;
-  --top:#00492c; --top-fg:#e4ce9b; --live:#b8860b; --live-fg:#fff; --live-row:#fff9e6;
-  --f-display:"Audiowide","Barlow Condensed",Impact,sans-serif;
-  --f-cond:"Barlow Condensed","Arial Narrow",sans-serif;
-  --f-body:"Barlow","Helvetica Neue",Arial,sans-serif;
+  --forest:#00492B; --forest-dark:#002f1c; --tan:#bc9b6a; --tan-dim:rgba(188,155,106,.28); --tan-ink:#6b5230;
+  --paper:#f7f5f0; --ink:#17231d; --muted:#5f6a63; --card:#ffffff; --card-line:#e4e1d6; --line:rgba(188,155,106,.28);
+  --row-alt:#faf8f3; --hi:#fff1c9; --live-row:rgba(188,155,106,.14);
+  --bg:var(--paper); --fg:var(--ink); --surface:var(--card); --accent:var(--forest); --accent-fg:#fff;
+  --f:"Open Sans",Arial,sans-serif;
+  color-scheme:light;
 }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
-  --bg:#101512; --surface:#18201b; --fg:#ece6d3; --muted:#9aa69e; --line:#2c3a31;
-  --row-alt:#141b17; --hi:#2b3419; --accent:#e4ce9b; --accent-fg:#00492c;
-  --top:#06301d; --top-fg:#e4ce9b; --live:#e4ce9b; --live-fg:#00492c; --live-row:#1f2a1d; color-scheme:dark } }
-:root[data-theme="dark"]{
-  --bg:#101512; --surface:#18201b; --fg:#ece6d3; --muted:#9aa69e; --line:#2c3a31;
-  --row-alt:#141b17; --hi:#2b3419; --accent:#e4ce9b; --accent-fg:#00492c;
-  --top:#06301d; --top-fg:#e4ce9b; --live:#e4ce9b; --live-fg:#00492c; --live-row:#1f2a1d; color-scheme:dark }
-
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.4}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--top)}
-.band{background:var(--top);color:var(--top-fg)}
-.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-header .wrap{padding-block:22px 18px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
-h1{font-family:var(--f-display);font-weight:400;font-size:clamp(20px,3.4vw,30px);margin:0;letter-spacing:.02em;text-wrap:balance;line-height:1.1}
-.eyebrow{font-family:var(--f-cond);text-transform:uppercase;letter-spacing:.14em;font-size:13px;opacity:.85;margin:0 0 6px}
-.meta{font-family:var(--f-cond);font-size:14px;letter-spacing:.04em;text-transform:uppercase;opacity:.8;display:flex;gap:16px;flex-wrap:wrap}
-.meta b{font-variant-numeric:tabular-nums;color:var(--top-fg);opacity:1}
-
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.bar .wrap{padding-block:12px;display:grid;gap:10px}
-.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f);font-size:16px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--forest)}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+/* hero */
+.band{position:relative;overflow:hidden;color:#fff;border-bottom:6px solid var(--tan);background:radial-gradient(1200px 500px at 85% -10%,rgba(188,155,106,.12),transparent 60%),linear-gradient(160deg,var(--forest) 0%,var(--forest-dark) 100%)}
+.band::after{content:"";position:absolute;right:-60px;top:-60px;width:320px;height:320px;border:2px solid rgba(188,155,106,.2);border-radius:50%}
+header .wrap{padding-block:46px 40px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 24px;position:relative;z-index:2}
+.eyebrow{font-size:.68rem;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--tan);margin:0 0 8px}
+h1{margin:0;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.15;font-weight:700;text-wrap:balance}
+h1 span{color:var(--tan)}
+.meta{display:flex;gap:8px 18px;flex-wrap:wrap;font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.82)}
+.meta b{color:#fff;font-variant-numeric:tabular-nums}
+#m-live{background:var(--tan);color:var(--forest-dark);padding:4px 10px;border-radius:4px}
+#m-live b{color:var(--forest-dark)}
+/* sticky filter bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--card-line);box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.bar .wrap{padding-block:14px;display:grid;gap:12px}
+.tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
 .tabs::-webkit-scrollbar{display:none}
-.tab{font-family:var(--f-cond);font-weight:600;font-size:15px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--line);background:transparent;color:var(--fg);padding:7px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
-.tab[aria-selected="true"]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
-.tab:focus-visible,.sel:focus-visible,#q:focus-visible,th button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.controls{display:grid;grid-template-columns:minmax(200px,2fr) repeat(3,minmax(140px,1fr)) auto;gap:8px;align-items:center}
+.tab{font-family:var(--f);font-size:.78rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:#fff;border:1.5px solid var(--forest);color:var(--forest);padding:7px 14px;border-radius:6px;cursor:pointer;white-space:nowrap}
+.tab:hover{background:rgba(0,73,43,.08)}
+.tab[aria-selected="true"]{background:var(--forest);color:#fff}
+.tab:focus-visible,.sel:focus-visible,#q:focus-visible,#clear:focus-visible,th button:focus-visible{outline:2px solid var(--tan);outline-offset:2px}
+.controls{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(150px,1fr)) auto;gap:10px;align-items:center}
 @media (max-width:760px){.controls{grid-template-columns:1fr 1fr}.controls .search{grid-column:1/-1}}
-.search{position:relative}
-#q{width:100%;font:inherit;font-size:16px;padding:9px 12px 9px 36px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
-.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:none;stroke:var(--muted);stroke-width:2}
-.sel{font-family:var(--f-cond);font-size:15px;font-weight:500;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);width:100%;min-width:0}
-#clear{font-family:var(--f-cond);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:13px;background:transparent;border:1px solid var(--line);color:var(--muted);padding:8px 12px;border-radius:8px;cursor:pointer}
-#clear:hover{color:var(--fg)}
-
-main .wrap{padding-block:18px 48px}
-.status{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:10px}
-.status .count{font-family:var(--f-cond);text-transform:uppercase;letter-spacing:.08em;font-size:14px;color:var(--muted)}
-.status .count b{color:var(--fg);font-variant-numeric:tabular-nums}
-.status .hint{font-size:13px;color:var(--muted)}
-
-.group{margin-bottom:26px}
-.group h2{font-family:var(--f-cond);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:17px;margin:0 0 6px;display:flex;align-items:baseline;gap:10px;color:var(--fg)}
-.group h2 small{font-weight:500;font-size:12px;letter-spacing:.1em;color:var(--muted)}
-.group h2 .sec{color:var(--muted);font-weight:500}
-.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
-table{border-collapse:collapse;width:100%;font-family:var(--f-cond);font-size:16px;font-variant-numeric:tabular-nums}
-th,td{padding:7px 12px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+.search{position:relative;display:flex;align-items:center}
+#q{width:100%;font-family:var(--f);font-size:.9rem;color:var(--ink);background:#fff;border:1.5px solid #d8d4c6;border-radius:999px;padding:10px 14px 10px 38px}
+#q:focus{outline:none;border-color:var(--forest)}
+#q::placeholder{color:#a5a599}
+.search svg{position:absolute;left:13px;width:16px;height:16px;fill:none;stroke:#9a9a8e;stroke-width:2;pointer-events:none}
+.sel{font-family:var(--f);font-size:.78rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--forest);background:#fff;border:1.5px solid var(--forest);border-radius:6px;padding:8px 12px;width:100%;min-width:0;cursor:pointer}
+#clear{appearance:none;background:none;border:none;color:var(--tan);font-family:var(--f);font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;cursor:pointer;padding:8px 6px}
+#clear:hover{color:var(--forest)}
+/* content */
+main .wrap{padding-block:28px 56px}
+.status{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.status .count{font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;color:var(--tan)}
+.status .count b{color:var(--forest);font-variant-numeric:tabular-nums}
+.status .hint{font-size:.8rem;color:var(--muted)}
+.group{margin-bottom:34px}
+.group h2{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px;color:var(--forest);font-size:1.25rem;font-weight:700;margin:0 0 12px;padding-bottom:8px;border-bottom:3px solid var(--forest)}
+.group h2 small{color:var(--tan);font-weight:600;font-size:.75rem;letter-spacing:1px;text-transform:uppercase}
+.group h2 .sec{color:var(--muted);font-weight:500;font-size:.95rem}
+.tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--card-line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.92rem;font-variant-numeric:tabular-nums}
+th,td{padding:9px 14px;text-align:left;white-space:nowrap;border-bottom:1px solid #eeebe2}
 tr:last-child td{border-bottom:0}
 tbody tr:nth-child(even){background:var(--row-alt)}
-th{background:var(--green);color:var(--tan);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:12.5px;position:sticky;top:0}
-th button{all:unset;cursor:pointer;display:inline-flex;gap:5px;align-items:center}
+th{background:var(--forest);color:#fff;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;font-size:.68rem;position:sticky;top:0}
+th button{all:unset;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
 th button::after{content:"";width:0;height:0;border:4px solid transparent;opacity:.35}
 th button[data-dir="asc"]::after{border-bottom-color:currentColor;border-top:0;opacity:1}
 th button[data-dir="desc"]::after{border-top-color:currentColor;border-bottom:0;opacity:1}
-td.num{text-align:right;font-weight:700;font-size:17px}
+td.num{text-align:right;font-weight:700;color:var(--forest)}
 th.num{text-align:right}
-td.rank{color:var(--muted);width:2.5em;text-align:right;font-size:14px}
+td.rank{color:#a5a599;width:2.6em;text-align:right;font-size:.8rem}
 td .name{font-weight:600}
 mark{background:var(--hi);color:inherit;padding:0 1px;border-radius:2px}
-.note{color:var(--muted);font-size:13px}
-.result-w{color:#0a7a3b;font-weight:600}.result-l{color:#b3261e;font-weight:600}
-.empty{padding:40px 16px;text-align:center;color:var(--muted);font-family:var(--f-cond);font-size:18px;border:1px dashed var(--line);border-radius:8px}
-.pcard{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--green);border-radius:8px;padding:12px 16px;margin-bottom:18px}
-.pcard .who{font-family:var(--f-display);font-size:20px;letter-spacing:.02em}
-.pcard .stat{font-family:var(--f-cond);font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-.pcard .stat b{color:var(--fg);font-size:16px;font-variant-numeric:tabular-nums}
-footer .wrap{padding-block:14px 24px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 20px}
-@media (prefers-reduced-motion:no-preference){.tab,#clear{transition:background .15s,color .15s}}
-
-.chip{display:inline-block;font-family:var(--f-cond);font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:var(--live);color:var(--live-fg);vertical-align:middle;margin-left:6px}
+.note{color:var(--tan-ink);font-size:.78rem;font-style:italic}
+.result-w{color:var(--forest);font-weight:700}.result-l{color:#9b2c2c;font-weight:700}
+.empty{padding:44px 16px;text-align:center;color:var(--muted);font-size:1rem;background:var(--card);border:1px dashed var(--card-line);border-radius:8px}
+.pcard{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;background:var(--card);border:1px solid var(--card-line);border-left:5px solid var(--forest);border-radius:8px;padding:14px 18px;margin-bottom:22px}
+.pcard .who{font-size:1.15rem;font-weight:700;color:var(--forest)}
+.pcard .stat{font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;font-weight:700;color:var(--tan)}
+.pcard .stat b{color:var(--ink);font-size:.95rem;letter-spacing:0;font-variant-numeric:tabular-nums}
+.chip{display:inline-block;font-size:.62rem;letter-spacing:1px;text-transform:uppercase;font-weight:700;padding:3px 8px;border-radius:4px;background:var(--tan);color:var(--forest-dark);vertical-align:middle;margin-left:6px}
 tr.live td{background:var(--live-row)}
-.notes{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--tan-deep);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:14px}
-.notes h3{margin:0 0 6px;font-family:var(--f-cond);text-transform:uppercase;letter-spacing:.08em;font-size:14px}
-.notes ul{margin:0;padding-left:18px}.notes li{margin:2px 0}
-.season-grid{display:grid;gap:18px;grid-template-columns:1fr}
-.kpis{display:flex;flex-wrap:wrap;gap:10px 22px;font-family:var(--f-cond);text-transform:uppercase;letter-spacing:.06em;font-size:14px;color:var(--muted);margin-bottom:8px}
-.kpis b{color:var(--fg);font-size:22px;letter-spacing:0;font-variant-numeric:tabular-nums;display:block;line-height:1}
-.gtype{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.notes{background:var(--card);border:1px solid var(--card-line);border-left:5px solid var(--tan);border-radius:8px;padding:14px 18px;margin-bottom:22px;font-size:.9rem}
+.notes h3{margin:0 0 6px;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--tan)}
+.notes ul{margin:0;padding-left:18px}.notes li{margin:3px 0}
+.kpis{display:flex;flex-wrap:wrap;gap:12px 26px;font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;font-weight:700;color:var(--tan);margin-bottom:14px}
+.kpis b{color:var(--forest);font-size:1.6rem;letter-spacing:0;font-variant-numeric:tabular-nums;display:block;line-height:1.1}
+.gtype{font-size:.66rem;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--tan-ink)}
+footer .wrap{padding-block:16px 28px;font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 20px;border-top:1px solid var(--card-line)}
+@media (prefers-reduced-motion:no-preference){.tab,#clear{transition:background .15s,color .15s}}
 </style>
 
 <header class="band"><div class="wrap">
   <div>
     <p class="eyebrow">The Villages High School · Buffalo Athletics</p>
-    <h1>Boys Basketball Record Book</h1>
+    <h1>Boys Basketball <span>Record Book</span></h1>
   </div>
   <div class="meta"><span><b id="m-records">0</b> records</span><span><b id="m-players">0</b> players</span><span><b id="m-opps">0</b> opponents</span><span>2005 – present</span><span id="m-live" hidden></span></div>
 </div></header>
