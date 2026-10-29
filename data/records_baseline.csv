@@ -1,14 +1,14 @@
 section,category,rank_in_list,value_text,value,player,opponent,coach,date,date_text,season,result,wins,losses,games,pct,note
 ind_game,Points,1,42,42.0,Sam Walters,,,2023-02-04,2/4/23,2022-2023,,,,,,
 ind_game,Points,2,41,41.0,Sam Walters,,,2022-01-08,1/8/22,2021-2022,,,,,,
-ind_game,Points,3,40,40.0,Ricardo Wright,,,2019-12-24,12/24/19,2019-2020,,,,,,
+ind_game,Points,3,40,40.0,Ricardo Wright,,,2019-12-27,12/27/19,2019-2020,,,,,,date corrected from 12/24/19 (confirmed against MaxPreps box score)
 ind_game,Points,4,39,39.0,Sam Walters,,,2021-12-14,12/14/21,2021-2022,,,,,,
 ind_game,Points,5,39,39.0,Isaiah Jackson,,,2014-02-07,2/7/14,2013-2014,,,,,,
 ind_game,Points,6,39,39.0,Ricardo Wright,,,2019-12-28,12/28/19,2019-2020,,,,,,
 ind_game,Points,7,38,38.0,Lane Munz,,,2012-12-18,12/18/12,2012-2013,,,,,,
 ind_game,Points,8,37,37.0,Sam Walters,,,2022-12-06,12/6/22,2022-2023,,,,,,
 ind_game,Points,9,37,37.0,Tre Mann,,,2017-01-24,1/24/17,2016-2017,,,,,,
-ind_game,Points,10,37,37.0,Tre Mann,,,2017-01-27,1/27/17,2016-2017,,,,,,
+ind_game,Points,10,37,37.0,Tre Mann,,,2018-01-27,1/27/18,2017-2018,,,,,,date corrected from 1/27/17 (confirmed against MaxPreps box score)
 ind_game,Points,11,37,37.0,Ricardo Wright,,,2020-01-11,1/11/20,2019-2020,,,,,,
 ind_game,Points,12,36,36.0,Sam Walters,,,2022-12-27,12/27/22,2022-2023,,,,,,
 ind_game,Points,13,36,36.0,Tre Mann,,,2018-12-15,12/15/18,2018-2019,,,,,,
@@ -20,10 +20,10 @@ ind_game,Points,18,34,34.0,Sam Walters,,,2023-02-16,2/16/23,2022-2023,,,,,,
 ind_game,Points,19,34,34.0,Sam Walters,,,2023-02-02,2/2/23,2022-2023,,,,,,
 ind_game,Points,20,34,34.0,Sam Walters,,,2021-11-22,11/22/21,2021-2022,,,,,,
 ind_game,Points,21,34,34.0,Brandon Farmer,,,2019-01-31,1/31/19,2018-2019,,,,,,
-ind_game,Points,22,34,34.0,Tre Mann,,,2018-12-27,12/27/18,2018-2019,,,,,,
+ind_game,Points,22,34,34.0,Tre Mann,,,2019-01-19,1/19/19,2018-2019,,,,,,date corrected from 12/27/18 (confirmed against MaxPreps box score)
 ind_game,Points,23,33,33.0,Sam Walters,,,2023-01-10,1/10/23,2022-2023,,,,,,
 ind_game,Points,24,33,33.0,Sam Walters,,,2022-01-07,1/7/22,2021-2022,,,,,,
-ind_game,Points,25,33,33.0,Tre Mann,,,2017-12-21,12/21/17,2017-2018,,,,,,
+ind_game,Points,25,33,33.0,Tre Mann,,,2017-11-27,11/27/17,2017-2018,,,,,,date corrected from 12/21/17 (confirmed against MaxPreps box score)
 ind_game,Points,26,33,33.0,Tre Mann,,,2017-11-30,11/30/17,2017-2018,,,,,,
 ind_game,Points,27,33,33.0,Eric Turner,,,2013-12-29,12/29/13,2013-2014,,,,,,
 ind_game,Points,28,33,33.0,Noor Davis,,,2011-01-27,1/27/11,2010-2011,,,,,,
@@ -36,7 +36,7 @@ ind_game,Field Goals Made,1,17,17.0,Sam Walters,,,2023-02-04,2/4/23,2022-2023,,,
 ind_game,Field Goals Made,2,15,15.0,Ricardo Wright,,,2019-12-27,12/27/19,2019-2020,,,,,,
 ind_game,Field Goals Made,3,14,14.0,Eric Turner,,,2013-12-06,12/06/13,2013-2014,,,,,,
 ind_game,Field Goals Made,4,14,14.0,Austin Roberts,,,2009-02-03,2/3/09,2008-2009,,,,,,
-ind_game,Field Goals Made,5,13,13.0,Sam Walters,,,2022-01-11,1/11/22,2021-2022,,,,,,
+ind_game,Field Goals Made,5,13,13.0,Sam Walters,,,2022-01-08,1/8/22,2021-2022,,,,,,date corrected from 1/11/22 (confirmed against MaxPreps box score)
 ind_game,Field Goals Made,6,13,13.0,Sam Walters,,,2021-12-14,12/14/21,2021-2022,,,,,,
 ind_game,Field Goals Made,7,13,13.0,Sam Walters,,,2021-11-22,11/22/21,2021-2022,,,,,,
 ind_game,Field Goals Made,8,13,13.0,Ricardo Wright,,,2019-12-28,12/28/19,2019-2020,,,,,,
@@ -85,7 +85,7 @@ ind_game,Three-Pointers Made,2,9,9.0,Jared Thompson,,,2025-01-25,1/25/25,2024-20
 ind_game,Three-Pointers Made,3,9,9.0,Tre Mann,,,2016-01-17,1/17/16,2015-2016,,,,,,
 ind_game,Three-Pointers Made,4,8,8.0,"Aaron Britt, Jr.",,,2025-02-07,2/7/25,2024-2025,,,,,,
 ind_game,Three-Pointers Made,5,8,8.0,Ricardo Wright,,,2020-01-14,1/14/20,2019-2020,,,,,,
-ind_game,Three-Pointers Made,6,7,7.0,Adyn Corbin,,,2024-01-02,1/2/24,2023-2024,,,,,,
+ind_game,Three-Pointers Made,6,7,7.0,Adyn Corbin,,,2025-01-02,1/2/25,2024-2025,,,,,,date corrected from 1/2/24 (confirmed against MaxPreps box score)
 ind_game,Three-Pointers Made,7,7,7.0,Gian Rolon,,,2022-01-17,1/17/22,2021-2022,,,,,,
 ind_game,Three-Pointers Made,8,7,7.0,Tre Mann,,,2019-01-25,1/25/19,2018-2019,,,,,,
 ind_game,Three-Pointers Made,9,7,7.0,Tre Mann,,,2019-01-11,1/11/19,2018-2019,,,,,,
@@ -115,10 +115,10 @@ ind_game,Three-Pointers Attempted,3,17,17.0,Tre Mann,,,2019-01-24,1/24/19,2018-2
 ind_game,Three-Pointers Attempted,4,17,17,Shoalton Roberts,Citrus,,2014-11-24,11/24/14,2014-2015,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Three-Pointers Attempted,5,16,16.0,Lane Munz,,,2013-01-04,1/4/13,2012-2013,,,,,,
 ind_game,Three-Pointers Attempted,6,15,15.0,Lane Munz,,,2012-12-18,12/18/12,2012-2013,,,,,,
-ind_game,Three-Pointers Attempted,7,15,15.0,Tre Mann,,,2017-01-24,1/24/17,2016-2017,,,,,,
+ind_game,Three-Pointers Attempted,7,15,15.0,Tre Mann,,,2018-01-24,1/24/18,2017-2018,,,,,,date corrected from 1/24/17 (confirmed against MaxPreps box score)
 ind_game,Three-Pointers Attempted,8,15,15.0,Austin Tatman,,,2011-12-12,12/12/11,2011-2012,,,,,,
 ind_game,Three-Pointers Attempted,9,15,15.0,Austin Tatman,,,2012-02-21,2/21/12,2011-2012,,,,,,
-ind_game,Three-Pointers Attempted,10,14,14.0,"Aaron Britt, Jr.",,,2024-02-07,2/7/24,2023-2024,,,,,,
+ind_game,Three-Pointers Attempted,10,14,14.0,"Aaron Britt, Jr.",,,2025-02-07,2/7/25,2024-2025,,,,,,date corrected from 2/7/24 (confirmed against MaxPreps box score)
 ind_game,Three-Pointers Attempted,11,14,14.0,Ricardo Wright,,,2020-01-14,1/14/20,2019-2020,,,,,,
 ind_game,Three-Pointers Attempted,12,14,14.0,Ricardo Wright,,,2020-02-25,2/25/20,2019-2020,,,,,,
 ind_game,Three-Pointers Attempted,13,13,13.0,Gian Rolon,,,2022-01-29,1/29/22,2021-2022,,,,,,
@@ -128,7 +128,7 @@ ind_game,Three-Pointers Attempted,16,13,13.0,Ricardo Wright,,,2020-01-11,1/11/20
 ind_game,Three-Pointers Attempted,17,13,13.0,Lane Munz,,,2012-12-01,12/1/12,2012-2013,,,,,,
 ind_game,Three-Pointers Attempted,18,13,13.0,Austin Tatman,,,2012-02-02,2/2/12,2011-2012,,,,,,
 ind_game,Three-Pointers Attempted,19,13,13.0,Lance Roberts,,,2010-11-30,11/30/10,2010-2011,,,,,,
-ind_game,Three-Pointers Attempted,20,13,13.0,Lance Roberts,,,2009-12-15,12/15/09,2009-2010,,,,,,
+ind_game,Three-Pointers Attempted,20,13,13.0,Lance Roberts,,,2010-01-05,1/5/10,2009-2010,,,,,,date corrected from 12/15/09 (confirmed against MaxPreps box score)
 ind_game,Three-Pointers Attempted,21,13,13.0,Tre Mann,,,2019-01-25,1/25/19,2018-2019,,,,,,
 ind_game,Three-Pointers Attempted,22,13,13.0,Tre Mann,,,2018-01-26,1/26/18,2017-2018,,,,,,
 ind_game,Three-Pointers Attempted,23,13,13,"Aaron Britt, Jr.",,,2026-02-07,2/7/26,2025-2026,,,,,,added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)
@@ -146,7 +146,7 @@ ind_game,Free Throws Made,10,13,13.0,Tre Mann,,,2016-12-10,12/10/16,2016-2017,,,
 ind_game,Free Throws Made,11,13,13,Tre Mann,Wildwood,,2021-01-30,1/30/21,2020-2021,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Made,12,12,12.0,Adyn Corbin,,,2024-12-19,12/19/24,2024-2025,,,,,,
 ind_game,Free Throws Made,13,12,12.0,Adyn Corbin,,,2024-02-23,2/23/24,2023-2024,,,,,,
-ind_game,Free Throws Made,14,12,12.0,Sam Walters,,,2022-12-04,12/4/22,2022-2023,,,,,,
+ind_game,Free Throws Made,14,12,12.0,Sam Walters,,,2021-12-04,12/4/21,2021-2022,,,,,,date corrected from 12/4/22 (confirmed against MaxPreps box score)
 ind_game,Free Throws Made,15,12,12.0,Tre Mann,,,2019-03-01,3/1/19,2018-2019,,,,,,
 ind_game,Free Throws Made,16,12,12.0,Tre Mann,,,2019-01-19,1/19/19,2018-2019,,,,,,
 ind_game,Free Throws Made,17,12,12.0,Isaiah Jackson,,,2014-02-07,2/7/14,2013-2014,,,,,,
@@ -196,7 +196,7 @@ ind_game,Free Throws Attempted,24,14,14.0,Isaiah Jackson,,,2014-02-07,2/7/14,201
 ind_game,Free Throws Attempted,25,14,14.0,Noor Davis,,,2011-01-27,1/27/11,2010-2011,,,,,,
 ind_game,Free Throws Attempted,26,13,13.0,Chris Washington,,,2023-12-21,12/21/23,2023-2024,,,,,,
 ind_game,Free Throws Attempted,27,13,13.0,Isaiah Jackson,,,2013-12-29,12/29/13,2013-2014,,,,,,
-ind_game,Free Throws Attempted,28,13,13.0,Eric Turner,,,2014-01-13,1/13/14,2013-2014,,,,,,
+ind_game,Free Throws Attempted,28,13,13.0,Eric Turner,,,2014-02-13,2/13/14,2013-2014,,,,,,date corrected from 1/13/14 (confirmed against MaxPreps box score)
 ind_game,Free Throws Attempted,29,13,13,Dalton Berry,Meadowbrook Academy,,2018-02-06,2/6/18,2017-2018,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Attempted,30,13,13,Tre Mann,North Miami,,2019-01-19,1/19/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Attempted,31,13,13,Brandon Farmer,Wildwood,,2019-02-07,2/7/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
@@ -224,7 +224,7 @@ ind_game,Rebounds,20,14,14.0,Brandon Farmer,,,2019-02-04,2/4/19,2018-2019,,,,,,
 ind_game,Rebounds,21,14,14.0,Brandon Farmer,,,2019-01-11,1/11/19,2018-2019,,,,,,
 ind_game,Rebounds,22,14,14.0,Eric Turner,,,2014-01-08,1/8/14,2013-2014,,,,,,
 ind_game,Rebounds,23,14,14.0,Lane Munz,,,2013-01-08,1/8/13,2012-2013,,,,,,
-ind_game,Rebounds,24,14,14.0,Logan Chavous,,,2012-12-28,12/28/12,2012-2013,,,,,,
+ind_game,Rebounds,24,14,14.0,Logan Chavous,,,2011-12-28,12/28/11,2011-2012,,,,,,date corrected from 12/28/12 (confirmed against MaxPreps box score)
 ind_game,Rebounds,25,14,14.0,Noor Davis,,,2011-02-01,2/1/11,2010-2011,,,,,,
 ind_game,Rebounds,26,14,14.0,Jon Jenkins,,,2009-12-15,12/15/09,2009-2010,,,,,,
 ind_game,Rebounds,27,14,14,Zach Rix,Wiregrass Ranch,,2006-11-20,11/20/06,2006-2007,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
@@ -264,7 +264,7 @@ ind_game,Steals,10,8,8.0,Terry Ivery,,,2018-12-15,12/15/18,2018-2019,,,,,,
 ind_game,Steals,11,8,8.0,Terry Ivery,,,2017-01-09,1/9/17,2016-2017,,,,,,
 ind_game,Steals,12,7,7.0,Adyn Corbin,,,2024-12-14,12/14/24,2024-2025,,,,,,
 ind_game,Steals,13,7,7.0,Isaiah Jackson,,,2013-11-21,11/21/13,2013-2014,,,,,,
-ind_game,Steals,14,7,7.0,Nigel Barker,,,2011-01-18,1/18/11,2010-2011,,,,,,
+ind_game,Steals,14,7,7.0,Nigel Barker,,,2011-01-14,1/14/11,2010-2011,,,,,,date corrected from 1/18/11 (confirmed against MaxPreps box score)
 ind_game,Steals,15,7,7.0,Lance Roberts,,,2011-01-14,1/14/11,2010-2011,,,,,,
 ind_game,Steals,16,7,7.0,Justin Hall,,,2010-12-14,12/14/10,2010-2011,,,,,,
 ind_game,Steals,17,7,7,Nick D'Alessandro,Trinity Catholic,,2025-01-31,1/31/25,2024-2025,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
@@ -963,13 +963,13 @@ team_game,Combined Points,14,162,162.0,,Oak Ridge,,2022-12-06,12/6/22,2022-2023,
 team_game,Combined Points,15,162,162.0,,South Sumter,,2018-12-14,12/14/18,2018-2019,Won,,,,,
 team_game,Combined Points,16,162,162,,The First Academy,,2019-02-21,2/21/19,2018-2019,Won,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 team_game,Combined Points,17,162,162,,Tampa Catholic,,2025-02-20,2/20/25,2024-2025,Won,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-team_game,Combined Points,18,161,161.0,,Eustis,,2017-02-01,2/1/17,2016-2017,Lost,,,,,
+team_game,Combined Points,18,161,161.0,,Eustis,,2018-02-01,2/1/18,2017-2018,Lost,,,,,date corrected from 2/1/17 (confirmed against MaxPreps box score)
 team_game,Biggest Victory,1,80,80.0,,Crescent City,,2025-02-05,2/5/25,2024-2025,,,,,,
 team_game,Biggest Victory,2,67,67.0,,Calusa Prep,,2023-01-27,1/27/23,2022-2023,,,,,,
 team_game,Biggest Victory,3,57,57.0,,Crescent City,,2026-02-05,2/5/26,2025-2026,,,,,,
 team_game,Biggest Victory,4,57,57.0,,East Hall,,2025-12-29,12/29/25,2025-2026,,,,,,date corrected from 12/x/26 (typo in 3.14.2026 book)
 team_game,Biggest Victory,5,57,57.0,,LCP,,2017-01-05,1/5/17,2016-2017,,,,,,
-team_game,Biggest Victory,6,56,56.0,,Umatilla,,2016-12-16,12/16/16,2016-2017,,,,,,
+team_game,Biggest Victory,6,56,56.0,,Umatilla,,2016-12-06,12/6/16,2016-2017,,,,,,date corrected from 12/16/16 (confirmed against MaxPreps box score)
 team_game,Biggest Victory,7,55,55.0,,Weeki Wachee,,2022-01-17,1/17/22,2021-2022,,,,,,
 team_game,Biggest Victory,8,55,55,,Trinity Catholic,,2025-01-31,1/31/25,2024-2025,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 team_game,Biggest Victory,9,53,53.0,,Mount Dora,,2024-02-06,2/6/24,2023-2024,,,,,,
@@ -993,7 +993,7 @@ team_game,Field Goals Made,3,39,39.0,,Tampa Catholic,,2024-01-26,1/26/24,2023-20
 team_game,Field Goals Made,4,39,39.0,,Calusa Prep,,2023-01-27,1/27/23,2022-2023,,,,,,
 team_game,Field Goals Made,5,38,38.0,,Seffner Christian,,2019-12-27,12/27/19,2019-2020,,,,,,
 team_game,Field Goals Made,6,38,38.0,,Hernando,,2019-12-05,12/5/19,2019-2020,,,,,,
-team_game,Field Goals Made,7,38,38.0,,Hudson,,2014-12-06,12/6/14,2014-2015,,,,,,
+team_game,Field Goals Made,7,38,38.0,,Hudson,,2013-12-06,12/6/13,2013-2014,,,,,,date corrected from 12/6/14 (confirmed against MaxPreps box score)
 team_game,Field Goals Made,8,37,37.0,,Mount Dora,,2023-02-04,2/4/23,2022-2023,,,,,,
 team_game,Field Goals Made,9,37,37.0,,Hudson,,2014-01-10,1/10/14,2013-2014,,,,,,
 team_game,Field Goals Made,10,36,36.0,,Crescent City,,2026-02-05,2/5/26,2025-2026,,,,,,
@@ -1047,7 +1047,7 @@ team_game,Free Throws Attempted,3,45,45.0,,Wiregrass,,2006-11-20,11/20/06,2006-2
 team_game,Free Throws Attempted,4,42,42.0,,Lake Minneola,,2024-12-19,12/19/24,2024-2025,,,,,,
 team_game,Free Throws Attempted,5,40,40.0,,Palm Bay,,2024-02-23,2/23/24,2023-2024,,,,,,
 team_game,Free Throws Attempted,6,40,40.0,,North Marion,,2014-12-23,12/23/14,2014-2015,,,,,,
-team_game,Free Throws Attempted,7,40,40.0,,Santa Fe,,2014-02-14,2/14/14,2013-2014,,,,,,
+team_game,Free Throws Attempted,7,40,40.0,,Santa Fe,,2014-02-13,2/13/14,2013-2014,,,,,,date corrected from 2/14/14 (confirmed against MaxPreps box score)
 team_game,Free Throws Attempted,8,39,39.0,,Seven Rivers,,2012-01-24,1/24/12,2011-2012,,,,,,
 team_game,Free Throws Attempted,9,38,38.0,,Eustis,,2018-12-08,12/8/18,2018-2019,,,,,,
 team_game,Free Throws Attempted,10,38,38.0,,South Sumter,,2016-01-17,1/17/16,2015-2016,,,,,,
@@ -1058,7 +1058,7 @@ team_game,Free Throws Attempted,14,35,35.0,,Cocoa,,2019-03-01,3/1/19,2018-2019,,
 team_game,Free Throws Attempted,15,35,35.0,,Ridgewood,,2013-12-13,12/13/13,2013-2014,,,,,,
 team_game,Free Throws Attempted,16,35,35.0,,Crescent City,,2013-02-05,2/5/13,2012-2013,,,,,,
 team_game,Free Throws Attempted,17,34,34.0,,Wildwood,,2019-02-07,2/7/19,2018-2019,,,,,,
-team_game,Free Throws Attempted,18,34,34.0,,Mount Dora,,2019-12-04,12/4/19,2019-2020,,,,,,
+team_game,Free Throws Attempted,18,34,34.0,,Mount Dora,,2018-12-04,12/4/18,2018-2019,,,,,,date corrected from 12/4/19 (confirmed against MaxPreps box score)
 team_game,Free Throws Attempted,19,34,34.0,,Mt. Dora,,2017-02-08,2/8/17,2016-2017,,,,,,
 team_game,Free Throws Attempted,20,33,33.0,,Umatilla,,2024-02-08,2/8/24,2023-2024,,,,,,
 team_game,Free Throws Attempted,21,33,33.0,,South Sumter,,2021-01-04,1/4/21,2020-2021,,,,,,
@@ -1100,7 +1100,7 @@ team_game,Assists,2,29,29.0,,Calusa Prep,,2023-01-27,1/27/23,2022-2023,,,,,,
 team_game,Assists,3,28,28.0,,Westminster Academy,,2025-01-25,1/25/25,2024-2025,,,,,,
 team_game,Assists,4,28,28.0,,South Lake,,2013-12-27,12/27/13,2013-2014,,,,,,
 team_game,Assists,5,27,27.0,,Tampa Catholic,,2024-01-26,1/26/24,2023-2024,,,,,,
-team_game,Assists,6,27,27.0,,South Sumter,,2014-02-07,2/7/14,2013-2014,,,,,,
+team_game,Assists,6,27,27.0,,South Sumter,,2014-02-05,2/5/14,2013-2014,,,,,,date corrected from 2/7/14 (confirmed against MaxPreps box score)
 team_game,Assists,7,25,25.0,,Vanguard,,2020-01-04,1/4/20,2019-2020,,,,,,
 team_game,Assists,8,25,25.0,,Hudson,,2013-12-06,12/6/13,2013-2014,,,,,,
 team_game,Assists,9,25,25.0,,Interlachen,,2013-12-20,12/20/13,2013-2014,,,,,,
@@ -1118,7 +1118,7 @@ team_game,Assists,20,23,23,,South Lake,,2025-11-17,11/17/25,2025-2026,,,,,,added
 team_game,Assists,21,22,22.0,,Weeki Wachee,,2022-01-17,1/17/22,2021-2022,,,,,,
 team_game,Assists,22,22,22.0,,Lake Minneola,,2020-01-28,1/28/20,2019-2020,,,,,,
 team_game,Assists,23,22,22.0,,SL Jones Christian,,2019-12-14,12/14/19,2019-2020,,,,,,
-team_game,Assists,24,22,22.0,,South Sumter,,2019-12-14,12/14/19,2019-2020,,,,,,
+team_game,Assists,24,22,22.0,,South Sumter,,2018-12-14,12/14/18,2018-2019,,,,,,date corrected from 12/14/19 (confirmed against MaxPreps box score)
 team_game,Assists,25,22,22.0,,Legacy Charter,,2014-01-08,1/8/14,2013-2014,,,,,,
 team_game,Assists,26,22,22,,Bell Creek,,2026-01-26,1/26/26,2025-2026,,,,,,added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)
 team_game,Assists,27,22,22,,Tavares,,2019-01-14,1/14/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)

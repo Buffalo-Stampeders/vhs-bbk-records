@@ -27,10 +27,11 @@
   "value": 40.0,
   "value_text": "40",
   "player": "Ricardo Wright",
-  "date": "2019-12-24",
-  "date_text": "12/24/19",
+  "date": "2019-12-27",
+  "date_text": "12/27/19",
   "season": "2019-2020",
-  "order": 3
+  "order": 3,
+  "note": "date corrected from 12/24/19 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -104,10 +105,11 @@
   "value": 37.0,
   "value_text": "37",
   "player": "Tre Mann",
-  "date": "2017-01-27",
-  "date_text": "1/27/17",
-  "season": "2016-2017",
-  "order": 10
+  "date": "2018-01-27",
+  "date_text": "1/27/18",
+  "season": "2017-2018",
+  "order": 10,
+  "note": "date corrected from 1/27/17 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -238,10 +240,11 @@
   "value": 34.0,
   "value_text": "34",
   "player": "Tre Mann",
-  "date": "2018-12-27",
-  "date_text": "12/27/18",
+  "date": "2019-01-19",
+  "date_text": "1/19/19",
   "season": "2018-2019",
-  "order": 22
+  "order": 22,
+  "note": "date corrected from 12/27/18 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -271,10 +274,11 @@
   "value": 33.0,
   "value_text": "33",
   "player": "Tre Mann",
-  "date": "2017-12-21",
-  "date_text": "12/21/17",
+  "date": "2017-11-27",
+  "date_text": "11/27/17",
   "season": "2017-2018",
-  "order": 25
+  "order": 25,
+  "note": "date corrected from 12/21/17 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -420,10 +424,11 @@
   "value": 13.0,
   "value_text": "13",
   "player": "Sam Walters",
-  "date": "2022-01-11",
-  "date_text": "1/11/22",
+  "date": "2022-01-08",
+  "date_text": "1/8/22",
   "season": "2021-2022",
-  "order": 38
+  "order": 38,
+  "note": "date corrected from 1/11/22 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -973,10 +978,11 @@
   "value": 7.0,
   "value_text": "7",
   "player": "Adyn Corbin",
-  "date": "2024-01-02",
-  "date_text": "1/2/24",
-  "season": "2023-2024",
-  "order": 87
+  "date": "2025-01-02",
+  "date_text": "1/2/25",
+  "season": "2024-2025",
+  "order": 87,
+  "note": "date corrected from 1/2/24 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -1317,10 +1323,11 @@
   "value": 15.0,
   "value_text": "15",
   "player": "Tre Mann",
-  "date": "2017-01-24",
-  "date_text": "1/24/17",
-  "season": "2016-2017",
-  "order": 117
+  "date": "2018-01-24",
+  "date_text": "1/24/18",
+  "season": "2017-2018",
+  "order": 117,
+  "note": "date corrected from 1/24/17 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -1350,10 +1357,11 @@
   "value": 14.0,
   "value_text": "14",
   "player": "Aaron Britt, Jr.",
-  "date": "2024-02-07",
-  "date_text": "2/7/24",
-  "season": "2023-2024",
-  "order": 120
+  "date": "2025-02-07",
+  "date_text": "2/7/25",
+  "season": "2024-2025",
+  "order": 120,
+  "note": "date corrected from 2/7/24 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -1460,10 +1468,11 @@
   "value": 13.0,
   "value_text": "13",
   "player": "Lance Roberts",
-  "date": "2009-12-15",
-  "date_text": "12/15/09",
+  "date": "2010-01-05",
+  "date_text": "1/5/10",
   "season": "2009-2010",
-  "order": 130
+  "order": 130,
+  "note": "date corrected from 12/15/09 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -1665,10 +1674,11 @@
   "value": 12.0,
   "value_text": "12",
   "player": "Sam Walters",
-  "date": "2022-12-04",
-  "date_text": "12/4/22",
-  "season": "2022-2023",
-  "order": 148
+  "date": "2021-12-04",
+  "date_text": "12/4/21",
+  "season": "2021-2022",
+  "order": 148,
+  "note": "date corrected from 12/4/22 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -2233,10 +2243,11 @@
   "value": 13.0,
   "value_text": "13",
   "player": "Eric Turner",
-  "date": "2014-01-13",
-  "date_text": "1/13/14",
+  "date": "2014-02-13",
+  "date_text": "2/13/14",
   "season": "2013-2014",
-  "order": 198
+  "order": 198,
+  "note": "date corrected from 1/13/14 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -2553,10 +2564,11 @@
   "value": 14.0,
   "value_text": "14",
   "player": "Logan Chavous",
-  "date": "2012-12-28",
-  "date_text": "12/28/12",
-  "season": "2012-2013",
-  "order": 226
+  "date": "2011-12-28",
+  "date_text": "12/28/11",
+  "season": "2011-2012",
+  "order": 226,
+  "note": "date corrected from 12/28/12 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -2999,10 +3011,11 @@
   "value": 7.0,
   "value_text": "7",
   "player": "Nigel Barker",
-  "date": "2011-01-18",
-  "date_text": "1/18/11",
+  "date": "2011-01-14",
+  "date_text": "1/14/11",
   "season": "2010-2011",
-  "order": 266
+  "order": 266,
+  "note": "date corrected from 1/18/11 (confirmed against MaxPreps box score)"
  },
  {
   "section": "ind_game",
@@ -9561,11 +9574,12 @@
   "value": 161.0,
   "value_text": "161",
   "opponent": "Eustis",
-  "date": "2017-02-01",
-  "date_text": "2/1/17",
-  "season": "2016-2017",
+  "date": "2018-02-01",
+  "date_text": "2/1/18",
+  "season": "2017-2018",
   "result": "Lost",
-  "order": 965
+  "order": 965,
+  "note": "date corrected from 2/1/17 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",
@@ -9634,11 +9648,12 @@
   "value": 56.0,
   "value_text": "56",
   "opponent": "Umatilla",
-  "date": "2016-12-16",
-  "date_text": "12/16/16",
+  "date": "2016-12-06",
+  "date_text": "12/6/16",
   "season": "2016-2017",
   "result": null,
-  "order": 971
+  "order": 971,
+  "note": "date corrected from 12/16/16 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",
@@ -9927,11 +9942,12 @@
   "value": 38.0,
   "value_text": "38",
   "opponent": "Hudson",
-  "date": "2014-12-06",
-  "date_text": "12/6/14",
-  "season": "2014-2015",
+  "date": "2013-12-06",
+  "date_text": "12/6/13",
+  "season": "2013-2014",
   "result": null,
-  "order": 995
+  "order": 995,
+  "note": "date corrected from 12/6/14 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",
@@ -10578,11 +10594,12 @@
   "value": 40.0,
   "value_text": "40",
   "opponent": "Santa Fe",
-  "date": "2014-02-14",
-  "date_text": "2/14/14",
+  "date": "2014-02-13",
+  "date_text": "2/13/14",
   "season": "2013-2014",
   "result": null,
-  "order": 1049
+  "order": 1049,
+  "note": "date corrected from 2/14/14 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",
@@ -10710,11 +10727,12 @@
   "value": 34.0,
   "value_text": "34",
   "opponent": "Mount Dora",
-  "date": "2019-12-04",
-  "date_text": "12/4/19",
-  "season": "2019-2020",
+  "date": "2018-12-04",
+  "date_text": "12/4/18",
+  "season": "2018-2019",
   "result": null,
-  "order": 1060
+  "order": 1060,
+  "note": "date corrected from 12/4/19 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",
@@ -11218,11 +11236,12 @@
   "value": 27.0,
   "value_text": "27",
   "opponent": "South Sumter",
-  "date": "2014-02-07",
-  "date_text": "2/7/14",
+  "date": "2014-02-05",
+  "date_text": "2/5/14",
   "season": "2013-2014",
   "result": null,
-  "order": 1102
+  "order": 1102,
+  "note": "date corrected from 2/7/14 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",
@@ -11435,11 +11454,12 @@
   "value": 22.0,
   "value_text": "22",
   "opponent": "South Sumter",
-  "date": "2019-12-14",
-  "date_text": "12/14/19",
-  "season": "2019-2020",
+  "date": "2018-12-14",
+  "date_text": "12/14/18",
+  "season": "2018-2019",
   "result": null,
-  "order": 1120
+  "order": 1120,
+  "note": "date corrected from 12/14/19 (confirmed against MaxPreps box score)"
  },
  {
   "section": "team_game",

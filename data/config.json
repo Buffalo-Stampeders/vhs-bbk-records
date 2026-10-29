@@ -35,5 +35,5 @@
   "OCA": "Ocala Christian",
   "Ocala Christian": "Ocala Christian"
  },
- "manualReminder": "District and Region championships, and the coaching championship/playoff lists, are updated by hand at season end (edit config/main or tell Claude)."
+ "manualReminder": "District wins, district tournament wins, state tournament games, District/Region championships and the coaching championship/playoff lists are entered by hand at season end (tell Claude or edit data/records_baseline.json)."
 }

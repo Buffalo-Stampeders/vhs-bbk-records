@@ -41,9 +41,7 @@
   };
   const TEAM_SEASON = {
     'Wins': { fn: (s, d) => s.record.wins },
-    'District Wins': { fn: (s, d) => d.districtWins },
-    'District Tournament Wins': { fn: (s, d) => d.districtTourneyWins },
-    'State Tournament Games': { fn: (s, d) => d.stateGames },
+    // District Wins, District Tournament Wins and State Tournament Games are entered by hand (MaxPreps game labels are not reliable).
     'Points': { fn: s => s.teamTotals.pts }, 'Scoring Average': { fn: s => pct(s.teamTotals.pts, s.teamTotals.gp), fmt: fmtAvg },
     'Field Goals Made': { fn: s => s.teamTotals.fgm }, 'Field Goals Attempted': { fn: s => s.teamTotals.fga },
     'Field Goal Percentage': { fn: s => pct(s.teamTotals.fgm, s.teamTotals.fga), fmt: fmtPct },

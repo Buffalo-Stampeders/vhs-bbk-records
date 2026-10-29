@@ -313,7 +313,7 @@ function applyLive(){
   try{
     const res=RecordsEngine.computeLive(BASE, LIVE.seasons.slice().sort((a,b)=>a.season.localeCompare(b.season)), LIVE.config||{});
     LIVE.notes=res.notes;
-    const manual=(LIVE.config&&LIVE.config.manualReminder)||'District and Region championships, and the coaching championship/playoff lists, are updated by hand at season end.';
+    const manual=(LIVE.config&&LIVE.config.manualReminder)||'District wins, district tournament wins, state tournament games, District/Region championships and the coaching championship/playoff lists are entered by hand (tell Claude or edit the baseline).';
     if(res.liveSeasons.length) LIVE.notes=[...res.notes, manual];
     DATA=RecordsEngine.merge(BASE.map(r=>Object.assign({},r)), res);
     prepare(DATA);
