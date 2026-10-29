@@ -60,8 +60,8 @@ TEAM_GAME = {'High Point Games': lambda g: g['us'], 'Combined Points': lambda g:
              'Free Throws Made': lambda g: g['team']['ftm'], 'Free Throws Attempted': lambda g: g['team']['fta'],
              'Rebounds': lambda g: g['team']['reb'], 'Assists': lambda g: g['team']['ast']}
 TEAM_SEASON = {
-    'Wins': (lambda s, d: s['record']['wins'], str), 'District Wins': (lambda s, d: d['districtWins'], str),
-    'District Tournament Wins': (lambda s, d: d['districtTourneyWins'], str), 'State Tournament Games': (lambda s, d: d['stateGames'], str),
+    # District Wins / District Tournament Wins / State Tournament Games are maintained by hand, never filled from MaxPreps.
+    'Wins': (lambda s, d: s['record']['wins'], str),
     'Points': (lambda s, d: s['teamTotals'].get('pts'), str), 'Scoring Average': (lambda s, d: pct(s['teamTotals'].get('pts'), s['teamTotals'].get('gp')), fmt_avg),
     'Field Goals Made': (lambda s, d: s['teamTotals'].get('fgm'), str), 'Field Goals Attempted': (lambda s, d: s['teamTotals'].get('fga'), str),
     'Field Goal Percentage': (lambda s, d: pct(s['teamTotals'].get('fgm'), s['teamTotals'].get('fga')), fmt_pct),
@@ -299,7 +299,9 @@ with open(sys.argv[4], 'w') as f:
         f.write(f"\n### {sec} · {cat} ({len(rows)})\n")
         for a in rows: f.write(f"- {a['value_text']} — {a.get('player') or a.get('opponent') or ''} {a.get('date_text') or a.get('season') or ''}\n")
     f.write('\n## Review (nothing changed in the book for these)\n')
+    f.write('\nValue differences between the book and MaxPreps are intentionally ignored (historical MaxPreps inaccuracies; the book value stands) and are not listed.\n')
     for k, items in report.items():
+        if 'value differs' in k: continue
         f.write(f"\n### {k} ({len(items)})\n")
         for it in items: f.write(f"- {it}\n")
 print('complete seasons', sorted(COMPLETE)); print('added', len(adds), 'book', len(book))

@@ -20,18 +20,20 @@ ind_game,Points,18,34,34.0,Sam Walters,,,2023-02-16,2/16/23,2022-2023,,,,,,
 ind_game,Points,19,34,34.0,Sam Walters,,,2023-02-02,2/2/23,2022-2023,,,,,,
 ind_game,Points,20,34,34.0,Sam Walters,,,2021-11-22,11/22/21,2021-2022,,,,,,
 ind_game,Points,21,34,34.0,Brandon Farmer,,,2019-01-31,1/31/19,2018-2019,,,,,,
-ind_game,Points,22,34,34.0,Tre Mann,,,2019-01-19,1/19/19,2018-2019,,,,,,date corrected from 12/27/18 (confirmed against MaxPreps box score)
-ind_game,Points,23,33,33.0,Sam Walters,,,2023-01-10,1/10/23,2022-2023,,,,,,
-ind_game,Points,24,33,33.0,Sam Walters,,,2022-01-07,1/7/22,2021-2022,,,,,,
-ind_game,Points,25,33,33.0,Tre Mann,,,2017-11-27,11/27/17,2017-2018,,,,,,date corrected from 12/21/17 (confirmed against MaxPreps box score)
-ind_game,Points,26,33,33.0,Tre Mann,,,2017-11-30,11/30/17,2017-2018,,,,,,
-ind_game,Points,27,33,33.0,Eric Turner,,,2013-12-29,12/29/13,2013-2014,,,,,,
-ind_game,Points,28,33,33.0,Noor Davis,,,2011-01-27,1/27/11,2010-2011,,,,,,
-ind_game,Points,29,33,33.0,Kyle Stollar,,,2011-12-21,12/21/11,2011-2012,,,,,,
-ind_game,Points,30,33,33.0,Logan Betzer,,,2017-01-06,1/6/17,2016-2017,,,,,,
-ind_game,Points,31,33,33,Shoalton Roberts,Citrus,,2014-11-24,11/24/14,2014-2015,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Points,32,33,33,Tre Mann,South Sumter,,2018-12-14,12/14/18,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Points,33,33,33,Tre Mann,Miami Christian,,2019-01-25,1/25/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Points,22,34,34.0,Tre Mann,Auburndale,,2018-12-27,12/27/18,2018-2019,,,,,,
+ind_game,Points,23,34,34.0,Tre Mann,,,2019-01-19,1/19/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Points,24,33,33.0,Sam Walters,,,2023-01-10,1/10/23,2022-2023,,,,,,
+ind_game,Points,25,33,33.0,Sam Walters,,,2022-01-07,1/7/22,2021-2022,,,,,,
+ind_game,Points,26,33,33.0,Tre Mann,South Sumter,,2017-12-21,12/21/17,2017-2018,,,,,,
+ind_game,Points,27,33,33.0,Tre Mann,,,2017-11-27,11/27/17,2017-2018,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Points,28,33,33.0,Tre Mann,,,2017-11-30,11/30/17,2017-2018,,,,,,
+ind_game,Points,29,33,33.0,Eric Turner,,,2013-12-29,12/29/13,2013-2014,,,,,,
+ind_game,Points,30,33,33.0,Noor Davis,,,2011-01-27,1/27/11,2010-2011,,,,,,
+ind_game,Points,31,33,33.0,Kyle Stollar,,,2011-12-21,12/21/11,2011-2012,,,,,,
+ind_game,Points,32,33,33.0,Logan Betzer,,,2017-01-06,1/6/17,2016-2017,,,,,,
+ind_game,Points,33,33,33,Shoalton Roberts,Citrus,,2014-11-24,11/24/14,2014-2015,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Points,34,33,33,Tre Mann,South Sumter,,2018-12-14,12/14/18,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Points,35,33,33,Tre Mann,Miami Christian,,2019-01-25,1/25/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Field Goals Made,1,17,17.0,Sam Walters,,,2023-02-04,2/4/23,2022-2023,,,,,,
 ind_game,Field Goals Made,2,15,15.0,Ricardo Wright,,,2019-12-27,12/27/19,2019-2020,,,,,,
 ind_game,Field Goals Made,3,14,14.0,Eric Turner,,,2013-12-06,12/06/13,2013-2014,,,,,,
@@ -128,11 +130,12 @@ ind_game,Three-Pointers Attempted,16,13,13.0,Ricardo Wright,,,2020-01-11,1/11/20
 ind_game,Three-Pointers Attempted,17,13,13.0,Lane Munz,,,2012-12-01,12/1/12,2012-2013,,,,,,
 ind_game,Three-Pointers Attempted,18,13,13.0,Austin Tatman,,,2012-02-02,2/2/12,2011-2012,,,,,,
 ind_game,Three-Pointers Attempted,19,13,13.0,Lance Roberts,,,2010-11-30,11/30/10,2010-2011,,,,,,
-ind_game,Three-Pointers Attempted,20,13,13.0,Lance Roberts,,,2010-01-05,1/5/10,2009-2010,,,,,,date corrected from 12/15/09 (confirmed against MaxPreps box score)
-ind_game,Three-Pointers Attempted,21,13,13.0,Tre Mann,,,2019-01-25,1/25/19,2018-2019,,,,,,
-ind_game,Three-Pointers Attempted,22,13,13.0,Tre Mann,,,2018-01-26,1/26/18,2017-2018,,,,,,
-ind_game,Three-Pointers Attempted,23,13,13,"Aaron Britt, Jr.",,,2026-02-07,2/7/26,2025-2026,,,,,,added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)
-ind_game,Three-Pointers Attempted,24,13,13,Lane Munz,Crescent City,,2013-01-18,1/18/13,2012-2013,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Three-Pointers Attempted,20,13,13.0,Lance Roberts,South Sumter,,2009-12-15,12/15/09,2009-2010,,,,,,
+ind_game,Three-Pointers Attempted,21,13,13.0,Lance Roberts,,,2010-01-05,1/5/10,2009-2010,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Three-Pointers Attempted,22,13,13.0,Tre Mann,,,2019-01-25,1/25/19,2018-2019,,,,,,
+ind_game,Three-Pointers Attempted,23,13,13.0,Tre Mann,,,2018-01-26,1/26/18,2017-2018,,,,,,
+ind_game,Three-Pointers Attempted,24,13,13,"Aaron Britt, Jr.",,,2026-02-07,2/7/26,2025-2026,,,,,,added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)
+ind_game,Three-Pointers Attempted,25,13,13,Lane Munz,Crescent City,,2013-01-18,1/18/13,2012-2013,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Made,1,17,17.0,Nasir Mann,,,2020-12-08,12/8/20,2020-2021,,,,,,
 ind_game,Free Throws Made,2,17,17,Tre Mann,Leesburg,,2020-12-08,12/8/20,2020-2021,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Free Throws Made,3,16,16.0,Tre Mann,,,2017-02-08,2/8/17,2016-2017,,,,,,
@@ -264,26 +267,27 @@ ind_game,Steals,10,8,8.0,Terry Ivery,,,2018-12-15,12/15/18,2018-2019,,,,,,
 ind_game,Steals,11,8,8.0,Terry Ivery,,,2017-01-09,1/9/17,2016-2017,,,,,,
 ind_game,Steals,12,7,7.0,Adyn Corbin,,,2024-12-14,12/14/24,2024-2025,,,,,,
 ind_game,Steals,13,7,7.0,Isaiah Jackson,,,2013-11-21,11/21/13,2013-2014,,,,,,
-ind_game,Steals,14,7,7.0,Nigel Barker,,,2011-01-14,1/14/11,2010-2011,,,,,,date corrected from 1/18/11 (confirmed against MaxPreps box score)
-ind_game,Steals,15,7,7.0,Lance Roberts,,,2011-01-14,1/14/11,2010-2011,,,,,,
-ind_game,Steals,16,7,7.0,Justin Hall,,,2010-12-14,12/14/10,2010-2011,,,,,,
-ind_game,Steals,17,7,7,Nick D'Alessandro,Trinity Catholic,,2025-01-31,1/31/25,2024-2025,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,18,6,6.0,Jared Thompson,,,2025-01-02,1/2/25,2024-2025,,,,,,
-ind_game,Steals,19,6,6.0,Adyn Corbin,,,2024-12-10,12/10/24,2024-2025,,,,,,
-ind_game,Steals,20,6,6.0,Ricardo Wright,,,2019-12-19,12/19/19,2019-2020,,,,,,
-ind_game,Steals,21,6,6.0,Tre Mann,,,2018-01-12,1/12/18,2017-2018,,,,,,
-ind_game,Steals,22,6,6,Jared Thompson,,,2025-11-21,11/21/25,2025-2026,,,,,,added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)
-ind_game,Steals,23,6,6,Lance Roberts,Crystal River,,2009-12-08,12/8/09,2009-2010,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,24,6,6,Nigel Barker,Crystal River,,2010-12-07,12/7/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,25,6,6,Nigel Barker,Wildwood,,2010-12-09,12/9/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,26,6,6,Nigel Barker,Oak Hall,,2010-12-17,12/17/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,27,6,6,Justin Hall,Meadowbrook Academy,,2010-12-28,12/28/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,28,6,6,Lance Roberts,Meadowbrook Academy,,2010-12-28,12/28/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,29,6,6,Noor Davis,Umatilla,,2011-01-14,1/14/11,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,30,6,6,Lance Roberts,Crystal River,,2011-02-08,2/8/11,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,31,6,6,Byron Smith,Umatilla,,2017-12-14,12/14/17,2017-2018,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,32,6,6,Terry Ivery,Eustis,,2018-12-08,12/8/18,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
-ind_game,Steals,33,6,6,Terry Ivery,Trinity Catholic,,2019-01-11,1/11/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,14,7,7.0,Nigel Barker,Mount Dora,,2011-01-18,1/18/11,2010-2011,,,,,,
+ind_game,Steals,15,7,7.0,Nigel Barker,,,2011-01-14,1/14/11,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,16,7,7.0,Lance Roberts,,,2011-01-14,1/14/11,2010-2011,,,,,,
+ind_game,Steals,17,7,7.0,Justin Hall,,,2010-12-14,12/14/10,2010-2011,,,,,,
+ind_game,Steals,18,7,7,Nick D'Alessandro,Trinity Catholic,,2025-01-31,1/31/25,2024-2025,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,19,6,6.0,Jared Thompson,,,2025-01-02,1/2/25,2024-2025,,,,,,
+ind_game,Steals,20,6,6.0,Adyn Corbin,,,2024-12-10,12/10/24,2024-2025,,,,,,
+ind_game,Steals,21,6,6.0,Ricardo Wright,,,2019-12-19,12/19/19,2019-2020,,,,,,
+ind_game,Steals,22,6,6.0,Tre Mann,,,2018-01-12,1/12/18,2017-2018,,,,,,
+ind_game,Steals,23,6,6,Jared Thompson,,,2025-11-21,11/21/25,2025-2026,,,,,,added 10/28/2026 from MaxPreps 2025-26 stats (missing from 3.14.2026 book)
+ind_game,Steals,24,6,6,Lance Roberts,Crystal River,,2009-12-08,12/8/09,2009-2010,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,25,6,6,Nigel Barker,Crystal River,,2010-12-07,12/7/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,26,6,6,Nigel Barker,Wildwood,,2010-12-09,12/9/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,27,6,6,Nigel Barker,Oak Hall,,2010-12-17,12/17/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,28,6,6,Justin Hall,Meadowbrook Academy,,2010-12-28,12/28/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,29,6,6,Lance Roberts,Meadowbrook Academy,,2010-12-28,12/28/10,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,30,6,6,Noor Davis,Umatilla,,2011-01-14,1/14/11,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,31,6,6,Lance Roberts,Crystal River,,2011-02-08,2/8/11,2010-2011,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,32,6,6,Byron Smith,Umatilla,,2017-12-14,12/14/17,2017-2018,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,33,6,6,Terry Ivery,Eustis,,2018-12-08,12/8/18,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
+ind_game,Steals,34,6,6,Terry Ivery,Trinity Catholic,,2019-01-11,1/11/19,2018-2019,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 ind_game,Blocks,1,10,10.0,Logan Chavous,,,2011-12-28,12/28/11,2011-2012,,,,,,
 ind_game,Blocks,2,7,7.0,Chris Washington,,,2024-02-15,2/15/24,2023-2024,,,,,,
 ind_game,Blocks,3,6,6.0,Sam Walters,,,2023-01-05,1/5/23,2022-2023,,,,,,
@@ -982,7 +986,7 @@ team_game,Biggest Victory,15,49,49.0,,Bell Creek,,2023-12-07,12/7/23,2023-2024,,
 team_game,Biggest Victory,16,49,49,,Mount Dora,,2023-12-04,12/4/23,2023-2024,,,,,,added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)
 team_game,Biggest Victory,17,47,47.0,,Grace Christian,,2024-12-13,12/13/24,2024-2025,,,,,,
 team_game,Biggest Victory,18,47,47.0,,Umatilla,,2019-01-22,1/22/19,2018-2019,,,,,,
-team_game,Biggest Victory,19,47,47.0,,OCA,,2012-11-18,11/18/12,2012-2013,,,,,,
+team_game,Biggest Victory,19,47,47.0,,OCA,,2012-11-19,11/19/12,2012-2013,,,,,,date corrected from 11/18/12 (confirmed against MaxPreps box score)
 team_game,Biggest Victory,20,46,46.0,,King,,2021-01-16,1/16/21,2020-2021,,,,,,
 team_game,Biggest Victory,21,45,45.0,,Belleview,,2022-12-02,12/2/22,2022-2023,,,,,,
 team_game,Biggest Victory,22,45,45.0,,Umatilla,,2013-11-21,11/21/13,2013-2014,,,,,,

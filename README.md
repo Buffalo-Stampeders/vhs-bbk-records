@@ -14,7 +14,7 @@ Searchable, auto-updating record book for The Villages High School boys basketba
 - `sync/maxpreps_scrape.js` — runs in a browser tab on maxpreps.com and produces a season JSON.
 - `sync/records_engine.js` — decides which live stats qualify for each record list (same thresholds as the book) and merges them in.
 
-During the season (Nov 1 – Apr 1) a scheduled Claude task runs the scraper every morning, commits `data/seasons/<current season>.json`, and the page picks it up on the next load. Entries that came from MaxPreps show a **Live** chip. District/Region championships and the coaching championship lists are manual: edit `data/config.json` or tell Claude at season end.
+During the season (Nov 1 – Apr 1) a scheduled Claude task runs the scraper every morning, commits `data/seasons/<current season>.json`, and the page picks it up on the next load. Entries that came from MaxPreps show a **Live** chip. **Manual categories (never filled from MaxPreps):** District Wins, District Tournament Wins, State Tournament Games, District/Region championships and the coaching championship/playoff lists — Marty updates these in `data/records_baseline.json` (or tells Claude) at season end. Where the book and MaxPreps disagree on a historical value, the book value stands (MaxPreps history is known to be inaccurate).
 
 ## Embedding on athletics.tvcs.org
 
