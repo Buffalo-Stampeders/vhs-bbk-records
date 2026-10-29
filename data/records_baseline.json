@@ -344169,12 +344169,22 @@
  {
   "section": "career",
   "category": "Points",
+  "value": 36,
+  "value_text": "36",
+  "player": "Logan Betzer",
+  "season": "2014-2017",
+  "note": "3 pts on MaxPreps (one 2014-15 game) + 33 vs Liberty Christian Prep 1/5/17 from the record book; 2015-16 and 2016-17 are otherwise missing from MaxPreps, so the true total is higher",
+  "order": 27130
+ },
+ {
+  "section": "career",
+  "category": "Points",
   "value": 34,
   "value_text": "34",
   "player": "Kyle Staun",
   "season": "2023-2025",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27130
+  "order": 27131
  },
  {
   "section": "career",
@@ -344184,7 +344194,7 @@
   "player": "Jimmy Miller",
   "season": "2014-2015",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27131
+  "order": 27132
  },
  {
   "section": "career",
@@ -344194,7 +344204,7 @@
   "player": "Brady Hunt",
   "season": "2024-2026",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27132
+  "order": 27133
  },
  {
   "section": "career",
@@ -344204,7 +344214,7 @@
   "player": "Allen Milow",
   "season": "2023-2025",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27133
+  "order": 27134
  },
  {
   "section": "career",
@@ -344214,7 +344224,7 @@
   "player": "Valentino Collazo",
   "season": "2012-2014",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27134
+  "order": 27135
  },
  {
   "section": "career",
@@ -344224,7 +344234,7 @@
   "player": "Andy Prieto",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27135
+  "order": 27136
  },
  {
   "section": "career",
@@ -344234,7 +344244,7 @@
   "player": "Ryan Nash",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27136
+  "order": 27137
  },
  {
   "section": "career",
@@ -344244,7 +344254,7 @@
   "player": "Brandon Kennard",
   "season": "2020-2022",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27137
+  "order": 27138
  },
  {
   "section": "career",
@@ -344254,7 +344264,7 @@
   "player": "Blake Grinnell",
   "season": "2017-2019",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27138
+  "order": 27139
  },
  {
   "section": "career",
@@ -344264,7 +344274,7 @@
   "player": "Matthew Dougherty",
   "season": "2019-2020",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27139
+  "order": 27140
  },
  {
   "section": "career",
@@ -344274,7 +344284,7 @@
   "player": "Justin Wiede",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27140
+  "order": 27141
  },
  {
   "section": "career",
@@ -344284,7 +344294,7 @@
   "player": "Nate Williams",
   "season": "2017-2019",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27141
+  "order": 27142
  },
  {
   "section": "career",
@@ -344294,7 +344304,7 @@
   "player": "Rashad Jackson",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27142
+  "order": 27143
  },
  {
   "section": "career",
@@ -344304,7 +344314,7 @@
   "player": "Liam Cary",
   "season": "2018-2019",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27143
+  "order": 27144
  },
  {
   "section": "career",
@@ -344314,7 +344324,7 @@
   "player": "Corey Leahey",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27144
+  "order": 27145
  },
  {
   "section": "career",
@@ -344324,7 +344334,7 @@
   "player": "Cameron Shivers",
   "season": "2010-2011",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27145
+  "order": 27146
  },
  {
   "section": "career",
@@ -344334,7 +344344,7 @@
   "player": "Caydren Jones",
   "season": "2020-2021",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27146
+  "order": 27147
  },
  {
   "section": "career",
@@ -344344,7 +344354,7 @@
   "player": "Nigel Harris",
   "season": "2021-2022",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27147
+  "order": 27148
  },
  {
   "section": "career",
@@ -344354,7 +344364,7 @@
   "player": "Jaden Thompson",
   "season": "2022-2023",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27148
+  "order": 27149
  },
  {
   "section": "career",
@@ -344364,7 +344374,7 @@
   "player": "Jabari Jiles",
   "season": "2013-2014",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27149
+  "order": 27150
  },
  {
   "section": "career",
@@ -344374,7 +344384,7 @@
   "player": "Tim Carver",
   "season": "2009-2011",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27150
+  "order": 27151
  },
  {
   "section": "career",
@@ -344384,7 +344394,7 @@
   "player": "Luke Harding",
   "season": "2019-2021",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27151
+  "order": 27152
  },
  {
   "section": "career",
@@ -344394,7 +344404,7 @@
   "player": "Gavin Saunders",
   "season": "2021-2022",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27152
+  "order": 27153
  },
  {
   "section": "career",
@@ -344404,7 +344414,7 @@
   "player": "Brian Krecicki",
   "season": "2012-2013",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27153
+  "order": 27154
  },
  {
   "section": "career",
@@ -344414,7 +344424,7 @@
   "player": "Jordan Nguyen",
   "season": "2019-2020",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27154
+  "order": 27155
  },
  {
   "section": "career",
@@ -344424,7 +344434,7 @@
   "player": "Keegan Betzer",
   "season": "2020-2021",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27155
+  "order": 27156
  },
  {
   "section": "career",
@@ -344434,7 +344444,7 @@
   "player": "Caleb Bevis",
   "season": "2021-2023",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27156
+  "order": 27157
  },
  {
   "section": "career",
@@ -344444,7 +344454,7 @@
   "player": "Logan Hutt",
   "season": "2024-2026",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27157
+  "order": 27158
  },
  {
   "section": "career",
@@ -344454,7 +344464,7 @@
   "player": "Tyson Fischer",
   "season": "2014-2015",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27158
+  "order": 27159
  },
  {
   "section": "career",
@@ -344464,7 +344474,7 @@
   "player": "Brandon Liunoras",
   "season": "2017-2018",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27159
+  "order": 27160
  },
  {
   "section": "career",
@@ -344474,7 +344484,7 @@
   "player": "Jyhren Coleman",
   "season": "2025-",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27160
+  "order": 27161
  },
  {
   "section": "career",
@@ -344484,7 +344494,7 @@
   "player": "Nathan Hearns",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27161
+  "order": 27162
  },
  {
   "section": "career",
@@ -344494,7 +344504,7 @@
   "player": "Kyle Stollar",
   "season": "2009-2011",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27162
+  "order": 27163
  },
  {
   "section": "career",
@@ -344504,7 +344514,7 @@
   "player": "Mike Cattanazo",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27163
+  "order": 27164
  },
  {
   "section": "career",
@@ -344514,7 +344524,7 @@
   "player": "Jordan Jones",
   "season": "2014-2015",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27164
+  "order": 27165
  },
  {
   "section": "career",
@@ -344524,7 +344534,7 @@
   "player": "Janiyis McNeill",
   "season": "2021-2022",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)",
-  "order": 27165
+  "order": 27166
  },
  {
   "section": "career",
@@ -344534,16 +344544,6 @@
   "player": "Richard McCovery",
   "season": "2006-2007",
   "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher",
-  "order": 27166
- },
- {
-  "section": "career",
-  "category": "Points",
-  "value": 3,
-  "value_text": "3",
-  "player": "Logan Betzer",
-  "season": "2014-2017",
-  "note": "added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book); MaxPreps is missing part of this career, true value may be higher; MaxPreps lists him as 'Betzer Logan' and has stats for only one 2014-15 game \u2014 his 2015-16 and 2016-17 seasons (incl. 33 pts vs Liberty Christian Prep 1/5/17) are not on MaxPreps, so these career totals are far below actual",
   "order": 27167
  },
  {

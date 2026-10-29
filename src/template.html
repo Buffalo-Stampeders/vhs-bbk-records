@@ -91,6 +91,7 @@ tr.live td{background:var(--live-row)}
 .kpis b{color:var(--forest);font-size:1.6rem;letter-spacing:0;font-variant-numeric:tabular-nums;display:block;line-height:1.1}
 .gtype{font-size:.66rem;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--tan-ink)}
 footer .wrap{padding-block:16px 28px;font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 20px;border-top:1px solid var(--card-line)}
+footer .disclaimer{flex-basis:100%;font-style:italic;color:var(--ink)}
 @media (prefers-reduced-motion:no-preference){.tab,#clear{transition:background .15s,color .15s}}
 .embedded .bar{position:static;box-shadow:none}
 .embedded th{position:static}
@@ -125,7 +126,7 @@ html.embedded{overflow:hidden}
   <div id="results"></div>
 </div></main>
 
-<footer><div class="wrap"><span>Source: VHS Boys Basketball Record Book, revised 3.14.2026. In-season stats via MaxPreps.</span><span>Ranks reflect the order within each list in the record book.</span><span id="src-notes"></span></div></footer>
+<footer><div class="wrap"><span>Source: VHS Boys Basketball Record Book, revised 3.14.2026. In-season stats via MaxPreps.</span><span>Ranks reflect the order within each list in the record book.</span><span id="src-notes"></span><span class="disclaimer" id="disclaimer"></span></div></footer>
 
 <script id="data" type="application/json">__DATA__</script>
 <script>__ENGINE__</script>
@@ -240,6 +241,7 @@ function sortRows(rows, sec){
     if(typeof x==='number'&&typeof y==='number') return (x-y)*m;
     return String(x).localeCompare(String(y),undefined,{numeric:true})*m; });
 }
+document.getElementById('disclaimer').textContent='Due to lost records and potential inaccuracies, these stats are based on the complete knowledge of all statistics available as of '+new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+'.';
 const PAGE=100; state.expanded=state.expanded||{};
 function table(rows, sec, gkey){
   const cols=COLS[sec];
