@@ -105,8 +105,8 @@ html.embedded{overflow:hidden}
 <div class="bar"><div class="wrap">
   <div class="tabs" role="tablist" id="tabs"></div>
   <div class="controls">
-    <label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg><input id="q" type="search" placeholder="Search a player, opponent, coach, season or date…" autocomplete="off"></label>
-    <select id="f-cat" class="sel"><option value="">All categories</option></select>
+    <label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg><input id="q" type="search" placeholder="Search this list — player, opponent, season, date…" autocomplete="off"></label>
+    <select id="f-cat" class="sel" aria-label="Category"></select>
     <select id="f-who" class="sel"><option value="">All players / opponents</option></select>
     <select id="f-season" class="sel"><option value="">All seasons</option></select>
     <button id="clear" type="button">Reset</button>
@@ -131,9 +131,9 @@ const BASE = JSON.parse(document.getElementById('data').textContent);
 let DATA = BASE.slice();
 let LIVE = { seasons: [], config: null, notes: [] };
 const SECTIONS = [
-  ['all','All'],['season','This Season'],
-  ['ind_game','Single Game'],['ind_season','Single Season'],['career','Career'],
-  ['team_game','Team Game'],['team_season','Team Season'],['alltime','All-Time vs.'],['coaching','Coaching']];
+  ['career','Career'],['ind_season','Single Season'],['ind_game','Single Game'],
+  ['team_season','Team Season'],['team_game','Team Game'],['alltime','All-Time vs.'],['coaching','Coaching'],['season','This Season']];
+
 const SECNAME = Object.fromEntries(SECTIONS);
 function prepare(rows){
   rows.forEach(r=>{
@@ -147,7 +147,8 @@ prepare(DATA);
 
 const $ = s=>document.querySelector(s);
 const el = {tabs:$('#tabs'), q:$('#q'), cat:$('#f-cat'), who:$('#f-who'), season:$('#f-season'), res:$('#results'), clear:$('#clear'), pcard:$('#pcard')};
-let state = {section:'all', q:'', cat:'', who:'', season:'', sort:null};
+const DEFAULT = {section:'career', cat:'Points'};
+let state = {section:DEFAULT.section, q:'', cat:DEFAULT.cat, who:'', season:'', sort:null};
 
 function headerStats(){
   $('#m-records').textContent = DATA.length;
@@ -163,23 +164,26 @@ headerStats();
 SECTIONS.forEach(([k,label])=>{
   const b=document.createElement('button'); b.className='tab'; b.role='tab'; b.textContent=label; b.dataset.k=k;
   b.setAttribute('aria-selected', k===state.section);
-  b.onclick=()=>{ state.section=k; state.cat=''; state.sort=null; syncTabs(); fillSelects(); render(); };
+  b.onclick=()=>{ state.section=k; state.cat=({team_game:'High Point Games', team_season:'Wins', coaching:'Coaching Record'})[k]||'Points'; state.who=''; state.sort=null; syncTabs(); fillSelects(); render(); };
   el.tabs.appendChild(b);
 });
 function syncTabs(){ [...el.tabs.children].forEach(b=>b.setAttribute('aria-selected', b.dataset.k===state.section)); }
 
 function uniq(arr){ return [...new Set(arr.filter(Boolean))]; }
 function setOptions(sel, values, keep, first){
-  sel.innerHTML=''; const o=document.createElement('option'); o.value=''; o.textContent=first; sel.appendChild(o);
+  sel.innerHTML='';
+  if(first!==null){ const o=document.createElement('option'); o.value=''; o.textContent=first; sel.appendChild(o); }
   values.forEach(v=>{ const x=document.createElement('option'); x.value=v; x.textContent=v; sel.appendChild(x); });
-  sel.value = values.includes(keep) ? keep : '';
+  sel.value = values.includes(keep) ? keep : (first===null && values.length ? values[0] : '');
 }
-function base(){ if(state.section==='season') return []; return state.section==='all' ? DATA : DATA.filter(r=>r.section===state.section); }
+function base(){ if(state.section==='season') return []; return DATA.filter(r=>r.section===state.section); }
 function fillSelects(){
   const b=base();
-  const cats = uniq(b.map(r=> state.section==='all' ? SECNAME[r.section]+' · '+r.category : r.category));
-  setOptions(el.cat, cats, state.cat, 'All categories'); state.cat=el.cat.value;
-  const whos = uniq(b.map(r=>r.who)).sort((a,b)=>a.localeCompare(b));
+  // one category at a time, listed alphabetically; no "all categories" option
+  const cats = uniq(b.map(r=>r.category)).sort((a,b)=>a.localeCompare(b));
+  setOptions(el.cat, cats, state.cat, null); state.cat=el.cat.value; el.cat.disabled = state.section==='season';
+  const isPlayers = state.section.startsWith('ind') || state.section==='career';
+  const whos = uniq(b.map(r=> isPlayers ? r.player : state.section==='coaching' ? r.coach : r.opponent)).sort((a,b)=>a.localeCompare(b));
   setOptions(el.who, whos, state.who, state.section==='alltime' ? 'All opponents' : state.section==='coaching' ? 'All coaches' : state.section.startsWith('team') ? 'All opponents' : 'All players');
   state.who=el.who.value;
   const seasons = uniq(b.map(r=>r.season)).filter(s=>/^\d{4}/.test(s)).sort().reverse();
@@ -189,7 +193,7 @@ function fillSelects(){
 function filtered(){
   const q=state.q.trim().toLowerCase(); const terms=q.split(/\s+/).filter(Boolean);
   return base().filter(r=>{
-    if(state.cat){ const c = state.section==='all' ? SECNAME[r.section]+' · '+r.category : r.category; if(c!==state.cat) return false; }
+    if(state.cat && r.category!==state.cat) return false;
     if(state.who && r.who!==state.who) return false;
     if(state.season && r.season!==state.season) return false;
     return terms.every(t=>r.hay.includes(t));
@@ -245,7 +249,7 @@ function render(){
   const rows=filtered();
   $('#n-shown').textContent=rows.length;
   el.pcard.hidden=true;
-  if(state.who && (state.section==='all'||state.section.startsWith('ind')||state.section==='career')){
+  if(state.who && (state.section.startsWith('ind')||state.section==='career')){
     const mine=DATA.filter(r=>r.player===state.who);
     if(mine.length){
       const c=k=>mine.find(r=>r.section==='career'&&r.category===k);
@@ -266,7 +270,7 @@ function render(){
   let h='';
   for(const g of groups.values()){
     const total=DATA.filter(r=>r.section===g.sec&&r.category===g.cat).length;
-    h+=`<section class="group"><h2>${state.section==='all'?`<span class="sec">${SECNAME[g.sec]} ·</span>`:''} ${esc(g.cat)} <small>${g.rows.length===total?total+' listed':g.rows.length+' of '+total}</small></h2>${table(g.rows,g.sec)}</section>`;
+    h+=`<section class="group"><h2>${esc(g.cat)} <small>${g.rows.length===total?total+' listed':g.rows.length+' of '+total}</small></h2>${table(g.rows,g.sec)}</section>`;
   }
   el.res.innerHTML=h;
   $('#hint').textContent = state.sort ? 'Sorted by '+state.sort[0]+' ('+state.sort[1]+'). Click a header again to flip, or Reset to restore record-book order.' : 'Click any column header to sort.';
@@ -280,7 +284,7 @@ let t; el.q.addEventListener('input',()=>{ clearTimeout(t); t=setTimeout(()=>{ s
 el.cat.onchange=()=>{state.cat=el.cat.value; render();};
 el.who.onchange=()=>{state.who=el.who.value; render();};
 el.season.onchange=()=>{state.season=el.season.value; render();};
-el.clear.onclick=()=>{ state={section:'all',q:'',cat:'',who:'',season:'',sort:null}; el.q.value=''; syncTabs(); fillSelects(); render(); };
+el.clear.onclick=()=>{ state={section:DEFAULT.section,q:'',cat:DEFAULT.cat,who:'',season:'',sort:null}; el.q.value=''; syncTabs(); fillSelects(); render(); };
 function renderNotes(){
   const box=$('#livenotes'); const items=[];
   if(LIVE.seasons.length){ const cur=LIVE.seasons[LIVE.seasons.length-1]; if(LIVE.notes.length) LIVE.notes.forEach(n=>items.push(n)); }
