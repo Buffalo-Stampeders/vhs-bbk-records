@@ -15,6 +15,8 @@ book = json.load(open(sys.argv[1]))
 seasons = json.load(open(sys.argv[2]))
 seasons = sorted(seasons.values() if isinstance(seasons, dict) else seasons, key=lambda s: s['season'])
 NOTE = 'added 10/29/2026 from MaxPreps history (missing from 3.14.2026 book)'
+NOTE_PARTIAL = NOTE + '; MaxPreps coverage of this season is incomplete, true value may be higher'
+NOTE_CAREER_PARTIAL = NOTE + '; MaxPreps is missing part of this career, true value may be higher'
 
 # season completeness: MaxPreps team points must equal the book's team-season Points for that season
 _book_pts = {r['season']: r['value'] for r in book if r['section']=='team_season' and r['category']=='Points'}
@@ -92,15 +94,12 @@ for r in book:
 def qual(sec, cat, v): return v is not None and (sec, cat) in th and v >= th[(sec, cat)] - 1e-9
 
 book_players = {norm(r['player']): r['player'] for r in book if r.get('player')}
-def book_name(name):
+_cfg = json.load(open('/home/claude/data/config_main.json'))
+PLAYER_ALIASES = _cfg.get('playerAliases', {})
+def book_name(name, season=None):
+    name = PLAYER_ALIASES.get(f'{season}|{name}', PLAYER_ALIASES.get(name, name))
     n = norm(name)
-    if n in book_players: return book_players[n]
-    # last name + first initial match (e.g. "Tj Kennedy" vs "TJ Kennedy")
-    parts = n.split()
-    for bn, orig in book_players.items():
-        bp = bn.split()
-        if parts and bp and parts[-1] == bp[-1] and parts[0][0] == bp[0][0]: return orig
-    return name
+    return book_players.get(n, name)
 
 def has(sec, cat, **kw):
     for r in book:
@@ -129,16 +128,16 @@ def near_dup(sec, cat, v, iso, **who):
         close = _days(r['date'], iso) <= 31                                                   # day/month slip
         if same_md or close: return r
     return None
-aliases = json.load(open('/home/claude/data/config_main.json'))['opponentAliases']
+aliases = _cfg['opponentAliases']
 adds, report = [], defaultdict(list)
-def add(row):
-    row['note'] = NOTE; adds.append(row)
+def add(row, partial=False, career=False):
+    row['note'] = NOTE_CAREER_PARTIAL if career else (NOTE_PARTIAL if partial else NOTE); adds.append(row)
 
 # ---------- individual single game ----------
 for s in seasons:
     for g in s['games']:
         for b in g['box']:
-            name = book_name(b['name'])
+            name = book_name(b['name'], s['season'])
             for cat, key in IND_GAME.items():
                 v = b.get(key)
                 if not qual('ind_game', cat, v): continue
@@ -157,19 +156,15 @@ for s in seasons:
 
 # ---------- individual season ----------
 for s in seasons:
-    if s['season'] not in COMPLETE:
-        for p in s['players']:
-            for cat, (fn, fmt, mn) in IND_SEASON.items():
-                if mn and not mn(p): continue
-                try: v = fn(p)
-                except Exception: v = None
-                if qual('ind_season', cat, v) and not has('ind_season', cat, player=book_name(p['name']), season=s['season']):
-                    report['Season candidates from PARTIAL seasons (not added; MaxPreps has only some games)'].append(f"{cat}: {book_name(p['name'])} {s['season']} MaxPreps {fmt(v)} (partial)")
-        continue
+    partial = s['season'] not in COMPLETE
+    team_gp = (s.get('teamTotals') or {}).get('gp') or max([p.get('gp') or 0 for p in s['players']] or [0])
     for p in s['players']:
-        name = book_name(p['name'])
+        name = book_name(p['name'], s['season'])
         for cat, (fn, fmt, mn) in IND_SEASON.items():
             if mn and not mn(p): continue
+            if fmt is not str:
+                if partial: continue                                   # rates from a partial season are not lower bounds
+                if 'Average' in cat and (p.get('gp') or 0) < max(10, team_gp / 2): continue   # small-sample averages
             try: v = fn(p)
             except Exception: v = None
             if not qual('ind_season', cat, v): continue
@@ -177,7 +172,7 @@ for s in seasons:
             if ex:
                 if abs(ex['value'] - v) > (0.0051 if ex['value'] < 2 else 0.5): report['Season value differs'].append(f"{cat}: {name} {s['season']} book {ex['value_text']} vs MaxPreps {fmt(v)}")
                 continue
-            add(dict(section='ind_season', category=cat, value=round(v, 3) if isinstance(v, float) else v, value_text=fmt(v), player=name, season=s['season']))
+            add(dict(section='ind_season', category=cat, value=round(v, 3) if isinstance(v, float) else v, value_text=fmt(v), player=name, season=s['season']), partial)
 
 # ---------- team game ----------
 for s in seasons:
@@ -198,12 +193,14 @@ for s in seasons:
 
 # ---------- team season ----------
 for s in seasons:
-    if s['season'] not in COMPLETE: continue
+    if not s.get('teamTotals') and not s['games']: continue
+    partial = s['season'] not in COMPLETE
     d = derived(s)
     for cat, (fn, fmt) in TEAM_SEASON.items():
         try: v = fn(s, d)
         except Exception: v = None
         if v is None: continue
+        if partial and fmt is not str: continue
         ex = has('team_season', cat, season=s['season'])
         if ex:
             if ex['value'] is not None and abs(ex['value'] - v) > (0.0051 if ex['value'] < 2 else 0.5): report['Team-season value differs'].append(f"{cat} {s['season']}: book {ex['value_text']} vs MaxPreps {fmt(v)}")
@@ -226,7 +223,7 @@ for s in seasons:
             hit['season'] = s['season']; hit['value'] = v; hit['note'] = 'season label restored from MaxPreps (blank in 3.14.2026 book)'
             report['Unlabeled rows labeled'].append(f"{cat}: {fmt(v)} -> {s['season']}"); continue
         if cat in ('District Championships', 'Region Championships'): continue
-        add(dict(section='team_season', category=cat, value=v, value_text=fmt(v), season=s['season']))
+        add(dict(section='team_season', category=cat, value=v, value_text=fmt(v), season=s['season']), partial)
 
 # ---------- career ----------
 tot = defaultdict(lambda: defaultdict(int)); spans = defaultdict(list); cls = defaultdict(dict)
@@ -234,7 +231,7 @@ ORDER = [s['season'] for s in seasons]
 for s in seasons:
     for p in s['players']:
         if not p.get('gp'): continue
-        name = book_name(p['name'])
+        name = book_name(p['name'], s['season'])
         for k in ('pts', 'fgm', 'fga', 'fg3m', 'fg3a', 'ftm', 'fta', 'reb', 'stl', 'ast', 'blk'): tot[name][k] += p.get(k) or 0
         tot[name]['wins'] += s['record']['wins']; spans[name].append(s['season']); cls[name][s['season']] = (p.get('cls') or '')
 def career_ok(name):
@@ -247,11 +244,7 @@ def career_ok(name):
 for name, t in tot.items():
     active = spans[name][-1] == ORDER[-1] and not cls[name][spans[name][-1]].startswith('Sr')
     span = f"{spans[name][0][:4]}-" if active else f"{spans[name][0][:4]}-{spans[name][-1][-4:]}"
-    if not career_ok(name):
-        for cat, key in CAREER.items():
-            if qual('career', cat, t[key]) and not has('career', cat, player=name):
-                report['Career candidates with incomplete MaxPreps coverage (not added)'].append(f"{cat}: {name} MaxPreps sum {t[key]} over {spans[name][0]}..{spans[name][-1]}")
-        continue
+    incomplete = not career_ok(name)
     for cat, key in CAREER.items():
         v = t[key]
         if not qual('career', cat, v): continue
@@ -259,7 +252,7 @@ for name, t in tot.items():
         if ex:
             if abs(ex['value'] - v) >= 1 and not ex['season'].endswith('-'): report['Career value differs (book kept)'].append(f"{cat}: {name} book {ex['value_text']} ({ex['season']}) vs MaxPreps {v} ({span})")
             continue
-        add(dict(section='career', category=cat, value=v, value_text=str(v), player=name, season=span))
+        add(dict(section='career', category=cat, value=v, value_text=str(v), player=name, season=span), career=incomplete)
 
 # ---------- all-time vs ----------
 tally = defaultdict(lambda: [0, 0, None])
@@ -272,8 +265,9 @@ for k, (w, l, nm) in tally.items():
     ex = book_opp.get(k)
     if ex:
         if ex['wins'] < w or ex['losses'] < l: report['All-time record lower in book than MaxPreps (book kept)'].append(f"{ex['opponent']}: book {ex['wins']}-{ex['losses']} vs MaxPreps {w}-{l}")
-    else:
-        report['All-time: opponent name not found in book (not added; check spelling/alias)'].append(f"{nm}: {w}-{l} (MaxPreps seasons only)")
+    elif k not in ('varsity opponent', 'opponent', 'tbd'):
+        add(dict(section='alltime', category='All-Time Record vs.', opponent=nm, wins=w, losses=l, games=w + l, pct=round(w / (w + l), 3), value=w, value_text=f'{w}-{l}'))
+        report['All-time: new opponent added from MaxPreps (not in 3.14.2026 book)'].append(f"{nm}: {w}-{l}")
 
 # ---------- insert in order ----------
 for row in adds:

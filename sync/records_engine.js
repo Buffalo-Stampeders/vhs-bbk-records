@@ -90,6 +90,13 @@
     const bookThrough = config.bookThrough || '2025-2026';
     const th = thresholds(baseline);
     const rows = [], notes = [];
+    // player aliases: MaxPreps name -> book name; a 'season|name' key applies to one season only
+    const pa = config.playerAliases || {};
+    const fixName = (n, season) => pa[season + '|' + n] || pa[n] || n;
+    seasons = seasons.map(s => Object.assign({}, s, {
+      players: (s.players || []).map(p => Object.assign({}, p, { name: fixName(p.name, s.season) })),
+      games: (s.games || []).map(g => Object.assign({}, g, { box: (g.box || []).map(b => Object.assign({}, b, { name: fixName(b.name, s.season) })) }))
+    }));
     const live = seasons.filter(s => s.season > bookThrough); // seasons not yet in the book
     const qualifies = (sec, cat, v) => { const c = th[sec + '|' + cat]; return v != null && c && v >= c.min; };
     const push = r => rows.push(Object.assign({ live: true, order: 10000 + rows.length }, r));

@@ -1,63 +1,67 @@
-# MaxPreps history fill — 4 entries added, book now 1742 rows
+# MaxPreps history fill — 24 entries added, book now 1760 rows
 
 ## Added
 
-### career · Career Wins (2)
-- 42 — Valentino Collazo 2012-2014
-- 42 — Henry Liu 2012-2014
+### alltime · All-Time Record vs. (17)
+- 0-1 — Aucilla Christian 
+- 2-0 — SFCA 
+- 2-0 — Ocala Word of Faith 
+- 1-0 — La Salette Academy 
+- 0-1 — ISB 
+- 2-0 — Melody Christian Academy 
+- 0-1 — Taylor County 
+- 1-0 — Chiefland 
+- 1-0 — Lecanto 
+- 0-1 — Cardinal Gibbons 
+- 1-0 — Kingdom Prep 
+- 1-0 — NMBCLA (CO-OP) 
+- 0-1 — NSU University 
+- 1-1 — LPPA 
+- 1-0 — Jones Christian Academy 
+- 0-1 — PSFAS 
+- 1-0 — TGCA 
 
-### ind_game · Free Throws Made (2)
-- 10 — Eric Turner 12/23/13
-- 10 — Eric Turner 1/14/14
+### career · Blocks (1)
+- 29 — Peyton Williams 2017-2019
+
+### career · Career Wins (3)
+- 43 — Nate Williams 2017-2019
+- 64 — David Koubek 2017-2020
+- 43 — Blake Grinnell 2017-2019
+
+### career · Rebounds (1)
+- 296 — Alex Hardaway 2009-2012
+
+### team_season · Three-point Field Goals Attempted (1)
+- 301 —  2014-2015
+
+### team_season · Three-point Field Goals Made (1)
+- 79 —  2014-2015
 
 ## Review (nothing changed in the book for these)
 
 Value differences between the book and MaxPreps are intentionally ignored (historical MaxPreps inaccuracies; the book value stands) and are not listed.
 
-### Season candidates from PARTIAL seasons (not added; MaxPreps has only some games) (4)
-- Scoring Average: Jon Jenkins 2009-2010 MaxPreps 15.7 (partial)
-- Rebound Average: Jon Jenkins 2009-2010 MaxPreps 6.67 (partial)
-- Rebound Average: Dylan Leiva 2014-2015 MaxPreps 6.69 (partial)
-- Scoring Average: Shoalton Roberts 2014-2015 MaxPreps 18.0 (partial)
+### All-time: new opponent added from MaxPreps (not in 3.14.2026 book) (17)
+- Aucilla Christian: 0-1
+- SFCA: 2-0
+- Ocala Word of Faith: 2-0
+- La Salette Academy: 1-0
+- ISB: 0-1
+- Melody Christian Academy: 2-0
+- Taylor County: 0-1
+- Chiefland: 1-0
+- Lecanto: 1-0
+- Cardinal Gibbons: 0-1
+- Kingdom Prep: 1-0
+- NMBCLA (CO-OP): 1-0
+- NSU University: 0-1
+- LPPA: 1-1
+- Jones Christian Academy: 1-0
+- PSFAS: 0-1
+- TGCA: 1-0
 
-### Career candidates with incomplete MaxPreps coverage (not added) (6)
-- Career Wins: Justin Hall MaxPreps sum 52 over 2009-2010..2018-2019
-- Rebounds: Alex Hardaway MaxPreps sum 296 over 2009-2010..2011-2012
-- Career Wins: Nate Williams MaxPreps sum 43 over 2017-2018..2018-2019
-- Blocks: Peyton Williams MaxPreps sum 29 over 2017-2018..2018-2019
-- Career Wins: David Koubek MaxPreps sum 64 over 2017-2018..2019-2020
-- Career Wins: Blake Grinnell MaxPreps sum 43 over 2017-2018..2018-2019
-
-### All-time: opponent name not found in book (not added; check spelling/alias) (27)
-- Aucilla Christian: 0-1 (MaxPreps seasons only)
-- Nature Coast Tech: 0-2 (MaxPreps seasons only)
-- SFCA: 2-0 (MaxPreps seasons only)
-- Ocala Word of Faith: 2-0 (MaxPreps seasons only)
-- Seven Rivers Christian: 4-11 (MaxPreps seasons only)
-- Sonrise Christian: 1-0 (MaxPreps seasons only)
-- La Salette Academy: 1-0 (MaxPreps seasons only)
-- ISB: 0-1 (MaxPreps seasons only)
-- Melody Christian Academy: 2-0 (MaxPreps seasons only)
-- Taylor County: 0-1 (MaxPreps seasons only)
-- Central: 7-2 (MaxPreps seasons only)
-- Chiefland: 1-0 (MaxPreps seasons only)
-- Lecanto: 1-0 (MaxPreps seasons only)
-- Cardinal Gibbons: 0-1 (MaxPreps seasons only)
-- Varsity Opponent: 2-0 (MaxPreps seasons only)
-- Kingdom Prep: 1-0 (MaxPreps seasons only)
-- NMBCLA (CO-OP): 1-0 (MaxPreps seasons only)
-- MCCHS: 1-0 (MaxPreps seasons only)
-- NSU University: 0-1 (MaxPreps seasons only)
-- LPPA: 1-1 (MaxPreps seasons only)
-- Jones Christian Academy: 1-0 (MaxPreps seasons only)
-- Covington Catholic: 0-3 (MaxPreps seasons only)
-- PSFAS: 0-1 (MaxPreps seasons only)
-- HTEA: 2-0 (MaxPreps seasons only)
-- The Rock National: 0-1 (MaxPreps seasons only)
-- TGCA: 1-0 (MaxPreps seasons only)
-- ZCA: 1-0 (MaxPreps seasons only)
-
-### All-time record lower in book than MaxPreps (book kept) (14)
+### All-time record lower in book than MaxPreps (book kept) (15)
 - St. John Lutheran: book 7-4 vs MaxPreps 9-4
 - Wildwood: book 21-17 vs MaxPreps 20-18
 - Mount Dora: book 14-15 vs MaxPreps 15-13
@@ -70,5 +74,6 @@ Value differences between the book and MaxPreps are intentionally ignored (histo
 - Hudson: book 2-0 vs MaxPreps 3-2
 - Ridgewood: book 2-0 vs MaxPreps 2-2
 - North Marion: book 2-0 vs MaxPreps 3-0
+- Brooksville Central: book 8-1 vs MaxPreps 7-2
 - NFEI: book 1-0 vs MaxPreps 2-0
 - St. Mary’s Prep (MI): book 1-0 vs MaxPreps 3-0
