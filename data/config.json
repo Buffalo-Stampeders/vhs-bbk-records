@@ -31,7 +31,9 @@
   "Potter's House Christian": "Potter\u2019s House Christian",
   "St. Mary's Prep": "St. Mary\u2019s Prep (MI)",
   "Concord Academy": "Concord Academy (NC)",
-  "McEachern": "McEachern (GA)"
+  "McEachern": "McEachern (GA)",
+  "OCA": "Ocala Christian",
+  "Ocala Christian": "Ocala Christian"
  },
  "manualReminder": "District and Region championships, and the coaching championship/playoff lists, are updated by hand at season end (edit config/main or tell Claude)."
 }

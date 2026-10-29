@@ -62,22 +62,19 @@ window.__SCRAPE = (async () => {
   const ps = (await j(API + 'team-season-player-stats/rollup/v1' + Q)).data;
   let teamTotals = {};
   if (ps && ps.groups) {
-    const totals = rowsOf(findGroup(ps, 'Totals').subgroups[0].stats);
-    const shootA = rowsOf(findGroup(ps, 'Shooting').subgroups[0].stats);
-    const shootB = rowsOf(findGroup(ps, 'Shooting').subgroups[1].stats);
-    const misc = rowsOf(findGroup(ps, 'Misc Totals').subgroups[0].stats);
-    const byName = {}; [...shootA, ...shootB, ...misc].forEach(r => { byName[r.Name] = Object.assign(byName[r.Name] || {}, r); });
-    players = totals.map(r => {
-      const s = byName[r.Name] || {};
-      return {
+    // merge every group/subgroup by player name (group titles differ between seasons; column names do not)
+    const byName = {}, order = [], o = {};
+    ps.groups.forEach(g => (g.subgroups || []).forEach(sg => {
+      rowsOf(sg.stats).forEach(r => { if (!byName[r.Name]) { byName[r.Name] = {}; order.push(r.Name); } Object.assign(byName[r.Name], r); });
+      Object.assign(o, overall(sg.stats));
+    }));
+    players = order.map(n => { const r = byName[n]; return {
         abbrev: r.Name, name: fullName(r.Name, r.Name_href), slug: slugOf(r.Name_href), cls: (r.Name_caption || '').replace(/[()]/g, ''), jersey: r.Jersey,
         gp: num(r.GamesPlayed), pts: num(r.Points), reb: num(r.Rebounds), oreb: num(r.OffensiveRebounds), dreb: num(r.DefensiveRebounds),
         ast: num(r.Assists), stl: num(r.Steals), blk: num(r.BlockedShots), to: num(r.Turnovers), pf: num(r.PersonalFouls),
-        fgm: num(s.FieldGoalsMade), fga: num(s.FieldGoalAttempts), fg3m: num(s.ThreePointsMade), fg3a: num(s.ThreePointAttempts),
-        ftm: num(s.FreeThrowsMade), fta: num(s.FreeThrowAttempts), charges: num(s.Charges), dd: num(s.DoubleDouble), td: num(s.TripleDouble)
-      };
-    });
-    const o = Object.assign({}, overall(findGroup(ps, 'Totals').subgroups[0].stats), overall(findGroup(ps, 'Shooting').subgroups[0].stats), overall(findGroup(ps, 'Shooting').subgroups[1].stats), overall(findGroup(ps, 'Misc Totals').subgroups[0].stats));
+        fgm: num(r.FieldGoalsMade), fga: num(r.FieldGoalAttempts), fg3m: num(r.ThreePointsMade), fg3a: num(r.ThreePointAttempts),
+        ftm: num(r.FreeThrowsMade), fta: num(r.FreeThrowAttempts), charges: num(r.Charges), dd: num(r.DoubleDouble), td: num(r.TripleDouble)
+      }; });
     teamTotals = { gp: num(o.GamesPlayed), pts: num(o.Points), reb: num(o.Rebounds), ast: num(o.Assists), stl: num(o.Steals), blk: num(o.BlockedShots), fgm: num(o.FieldGoalsMade), fga: num(o.FieldGoalAttempts), fg3m: num(o.ThreePointsMade), fg3a: num(o.ThreePointAttempts), ftm: num(o.FreeThrowsMade), fta: num(o.FreeThrowAttempts), charges: num(o.Charges) };
   }
 

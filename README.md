@@ -27,3 +27,7 @@ During the season (Nov 1 – Apr 1) a scheduled Claude task runs the scraper eve
 1. Replace the .docx and run `python3 src/parse_record_book.py "<docx>" data/records_baseline.json`.
 2. Set `bookThrough` in `data/config.json` to the last season the book covers and mark that season's file `"baseline": true`.
 3. `python3 src/build.py` and commit.
+
+## MaxPreps history fill (Oct 29, 2026)
+
+`src/fill_history.py` compared every MaxPreps season (2005-06 → 2025-26, saved under `data/history/`) against the record book and added the entries the book was missing — 119 in all — plus two season-label fixes. It only adds; where MaxPreps disagrees with a value already in the book, the book is kept and the difference is listed in `docs/maxpreps-history-fill.md` for review. Seasons with incomplete MaxPreps stats (2005-06, 2006-07, 2007-08, 2008-09, 2009-10, 2014-15, 2015-16, 2016-17) contributed single-game lines only.
