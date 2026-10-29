@@ -15238,14 +15238,15 @@
  {
   "section": "alltime",
   "category": "All-Time Record vs.",
-  "opponent": "First Academy",
+  "opponent": "First Academy (Leesburg)",
   "wins": 6,
   "losses": 3,
   "value": 6,
   "value_text": "6-3",
   "games": 9,
   "pct": 0.667,
-  "order": 1567
+  "order": 1567,
+  "note": "Leesburg Eagles \u2014 separate school from The First Academy (Orlando)"
  },
  {
   "section": "alltime",
@@ -16438,14 +16439,15 @@
  {
   "section": "alltime",
   "category": "All-Time Record vs.",
-  "opponent": "The First Academy (Orl.)",
+  "opponent": "The First Academy (Orlando)",
   "wins": 2,
   "losses": 0,
   "value": 2,
   "value_text": "2-0",
   "games": 2,
   "pct": 1.0,
-  "order": 1667
+  "order": 1667,
+  "note": "Orlando Royals \u2014 separate school from First Academy (Leesburg)"
  },
  {
   "section": "alltime",

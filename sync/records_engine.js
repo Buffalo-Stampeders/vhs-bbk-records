@@ -53,7 +53,8 @@
     'Blocks': { fn: s => s.teamTotals.blk }, 'Charges': { fn: s => s.teamTotals.charges }
   };
 
-  const normOpp = s => String(s || '').toLowerCase().replace(/\(.*?\)/g, '').replace(/[’'.]/g, '').replace(/\b(academy|high school|hs|the)\b/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  // Parenthetical qualifiers are kept on purpose: 'First Academy (Leesburg)' and 'The First Academy (Orlando)' are different schools.
+  const normOpp = s => String(s || '').toLowerCase().replace(/[’'.]/g, '').replace(/\b(academy|high school|hs|the)\b/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
   function seasonDerived(season, config) {
     const cutoff = (config && config.districtTourneyCutoff) || '02-13'; // MM-DD: playoff games before this are the district tournament

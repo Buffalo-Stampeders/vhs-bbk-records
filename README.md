@@ -31,3 +31,5 @@ During the season (Nov 1 – Apr 1) a scheduled Claude task runs the scraper eve
 ## MaxPreps history fill (Oct 29, 2026)
 
 `src/fill_history.py` compared every MaxPreps season (2005-06 → 2025-26, saved under `data/history/`) against the record book and added the entries the book was missing — 119 in all — plus two season-label fixes. It only adds; where MaxPreps disagrees with a value already in the book, the book is kept and the difference is listed in `docs/maxpreps-history-fill.md` for review. Seasons with incomplete MaxPreps stats (2005-06, 2006-07, 2007-08, 2008-09, 2009-10, 2014-15, 2015-16, 2016-17) contributed single-game lines only.
+
+**Two different "First Academy" schools:** The First Academy (Orlando) Royals and First Academy (Leesburg) Eagles are separate opponents and their all-time records are kept separate. MaxPreps lists them as "The First Academy" and "First Academy" respectively; `data/config.json` maps each to its own book name, and opponent matching keeps parenthetical qualifiers so they can never merge.
