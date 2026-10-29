@@ -342,7 +342,7 @@ fillSelects(); render();
   if(window.parent===window) return;
   document.documentElement.classList.add('embedded');
   let last=0;
-  const post=()=>{ const h=Math.ceil(document.documentElement.scrollHeight); if(Math.abs(h-last)<2) return; last=h; try{ window.parent.postMessage({type:'vhs-records-height', height:h}, '*'); }catch(e){} };
+  const post=()=>{ const r=document.body.getBoundingClientRect(); const h=Math.ceil(r.top+r.height+window.scrollY); if(Math.abs(h-last)<2) return; last=h; try{ window.parent.postMessage({type:'vhs-records-height', height:h}, '*'); }catch(e){} };
   if('ResizeObserver' in window) new ResizeObserver(post).observe(document.body);
   window.addEventListener('load', post); setInterval(post, 1500); post();
   // host may ask for the height explicitly
